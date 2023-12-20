@@ -7,7 +7,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Array Intersection Calculator
 - [x] Array Leaders Finder
 - [x] Array Product excluding Self Calculator
-- [ ] Array Right Rotator
+- [x] Array Right Rotator
 - [ ] Divisible Sum Pairs Checker
 - [ ] Duplicate Number Detector
 - [ ] Duplicate Remover without Libraries
