@@ -11,7 +11,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Divisible Sum Pairs Checker
 - [x] Duplicate Number Detector
 - [x] Duplicate Remover without Libraries
-- [ ] Equilibrium Index Finder
+- [x] Equilibrium Index Finder
 - [ ] kth Max-Min Element Retriever
 - [ ] Longest Consecutive Subsequence Locator
 - [ ] Majority Element Identifier
