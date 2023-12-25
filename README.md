@@ -10,7 +10,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Array Right Rotator
 - [x] Divisible Sum Pairs Checker
 - [x] Duplicate Number Detector
-- [ ] Duplicate Remover without Libraries
+- [x] Duplicate Remover without Libraries
 - [ ] Equilibrium Index Finder
 - [ ] kth Max-Min Element Retriever
 - [ ] Longest Consecutive Subsequence Locator
