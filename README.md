@@ -13,7 +13,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Duplicate Remover without Libraries
 - [x] Equilibrium Index Finder
 - [x] kth Max-Min Element Retriever
-- [ ] Longest Consecutive Subsequence Locator
+- [x] Longest Consecutive Subsequence Locator
 - [ ] Majority Element Identifier
 - [ ] Max-Min Finder in an Unsorted Array
 - [ ] Minimum Sum Subarray Finder
