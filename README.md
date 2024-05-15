@@ -14,7 +14,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Equilibrium Index Finder
 - [x] kth Max-Min Element Retriever
 - [x] Longest Consecutive Subsequence Locator
-- [ ] Majority Element Identifier
+- [x] Majority Element Identifier
 - [ ] Max-Min Finder in an Unsorted Array
 - [ ] Minimum Sum Subarray Finder
 - [ ] Missing Number Finder in a 1 to 500 Sequence
