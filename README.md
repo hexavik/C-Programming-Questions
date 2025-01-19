@@ -16,9 +16,9 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Longest Consecutive Subsequence Locator
 - [x] Majority Element Identifier
 - [x] Max-Min Finder in an Unsorted Array
-- [ ] Minimum Sum Subarray Finder
-- [ ] Missing Number Finder in a 1 to 500 Sequence
-- [ ] Multiple Duplicates Identifier
+- [x] Minimum Sum Subarray Finder
+- [x] Missing Number Finder in a 1 to 500 Sequence
+- [x] Multiple Duplicates Identifier
 - [ ] Occurrence Counter in a Sorted Array
 - [ ] Peak Element Identifier
 - [ ] Positive Negative Rearranger
