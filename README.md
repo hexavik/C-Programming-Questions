@@ -19,8 +19,8 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Minimum Sum Subarray Finder
 - [x] Missing Number Finder in a 1 to 500 Sequence
 - [x] Multiple Duplicates Identifier
-- [ ] Occurrence Counter in a Sorted Array
-- [ ] Peak Element Identifier
+- [x] Occurrence Counter in a Sorted Array
+- [x] Peak Element Identifier
 - [ ] Positive Negative Rearranger
 - [ ] Quicksort Array Sorter
 - [ ] Self Referential Array Transformer
