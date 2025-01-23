@@ -21,7 +21,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Multiple Duplicates Identifier
 - [x] Occurrence Counter in a Sorted Array
 - [x] Peak Element Identifier
-- [ ] Positive Negative Rearranger
+- [x] Positive Negative Rearranger
 - [ ] Quicksort Array Sorter
 - [ ] Self Referential Array Transformer
 - [ ] Sorted Arrays Merger
