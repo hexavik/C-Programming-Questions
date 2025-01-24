@@ -23,7 +23,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Peak Element Identifier
 - [x] Positive Negative Rearranger
 - [x] Quicksort Array Sorter
-- [ ] Self Referential Array Transformer
+- [x] Self Referential Array Transformer
 - [ ] Sorted Arrays Merger
 - [ ] Target Sum Pairs Locator
 - [ ] Two Repeating Elements Finder
