@@ -26,8 +26,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Self Referential Array Transformer
 - [x] Sorted Arrays Merger
 - [x] Target Sum Pairs Locator
-- [ ] Two Repeating Elements Finder
-- [ ] Zero Mover to the Left
+- [x] Zero Mover to the Left
 - [ ] Zero Sum Subarray Detector
 
 ## Bit Manipulations
