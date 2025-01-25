@@ -24,7 +24,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Positive Negative Rearranger
 - [x] Quicksort Array Sorter
 - [x] Self Referential Array Transformer
-- [ ] Sorted Arrays Merger
+- [x] Sorted Arrays Merger
 - [ ] Target Sum Pairs Locator
 - [ ] Two Repeating Elements Finder
 - [ ] Zero Mover to the Left
