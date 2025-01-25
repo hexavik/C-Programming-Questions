@@ -25,7 +25,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Quicksort Array Sorter
 - [x] Self Referential Array Transformer
 - [x] Sorted Arrays Merger
-- [ ] Target Sum Pairs Locator
+- [x] Target Sum Pairs Locator
 - [ ] Two Repeating Elements Finder
 - [ ] Zero Mover to the Left
 - [ ] Zero Sum Subarray Detector
