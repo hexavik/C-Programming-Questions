@@ -27,7 +27,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Sorted Arrays Merger
 - [x] Target Sum Pairs Locator
 - [x] Zero Mover to the Left
-- [ ] Zero Sum Subarray Detector
+- [x] Zero Sum Subarray Detector
 
 ## Bit Manipulations
 
