@@ -255,7 +255,7 @@ Programming challenges for beginners and mid-level C programmers.
 
 ## Strings
 
-- [ ] Alphabetically Encoding a String
+- [x] Alphabetically Encoding a String
 - [ ] Checking Anagrams between Two Strings
 - [ ] Counting balanced Zero-One Substrings
 - [ ] Counting Character Occurrences in a String
