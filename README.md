@@ -87,9 +87,9 @@ Programming challenges for beginners and mid-level C programmers.
 
 ## Linux Internals
 
-- [ ] CPU Information Fetcher
-- [ ] CPU Scheduling Algorithm
 - [ ] Command Line Argument Parser
+- [x] CPU Information Fetcher
+- [ ] CPU Scheduling Algorithm
 - [ ] Custom Signal Handling
 - [ ] Custom Init Process
 - [ ] Custom malloc free
