@@ -2,6 +2,18 @@
 
 Programming challenges for beginners and mid-level C programmers.
 
+- [Arrays](#arrays)
+- [Bit Manipulations](#bit-manipulations)
+- [Linked List](#linked-list)
+- [Linux Internals](#linux-internals)
+- [Memory Management](#memory-management)
+- [Pointers](#pointers)
+- [Searching](#searching)
+- [Sorting](#sorting)
+- [Stacks and Queues](#stacks-and-queues)
+- [Strings](#strings)
+- [Structures and Unions](#structures-and-unions)
+
 ## Arrays
 
 - [x] Array Intersection Calculator
@@ -225,7 +237,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [ ] Stooge Sort
 - [ ] Tim Sort
 
-## Stakcs and Queues
+## Stacks and Queues
 
 - [ ] Balanced Parentheses Stack
 - [ ] Byte-Packing Stack
