@@ -99,7 +99,7 @@ Programming challenges for beginners and mid-level C programmers.
 
 ## Linux Internals
 
-- [ ] Command Line Argument Parser
+- [x] Command Line Argument Parser
 - [x] CPU Information Fetcher
 - [ ] CPU Scheduling Algorithm
 - [ ] Custom Signal Handling
