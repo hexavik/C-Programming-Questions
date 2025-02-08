@@ -30,8 +30,6 @@ result = "def"
 - Non-alphabetical characters should not be altered.
 - Wrapping occurs after 'z' for lowercase letters and after 'Z' for uppercase letters.
 
-**Notes:**
-
 > [!NOTE]
 > - Transformation Rules:
 >   - For lowercase letters: `newChar = ((originalChar - 'a' + 3) % 26) + 'a'`
