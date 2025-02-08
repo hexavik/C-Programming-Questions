@@ -32,8 +32,9 @@ result = "def"
 
 **Notes:**
 
-- Transformation Rules:
-  - For lowercase letters: `newChar = ((originalChar - 'a' + 3) % 26) + 'a'`
-  - For uppercase letters: `newChar = ((originalChar - 'A' + 3) % 26) + 'A'`
-- Non-alphabetical characters (e.g., punctuation, digits, spaces) remain unchanged in the output.
-- Use modular arithmetic to handle wrapping within the alphabet.
+> [!NOTE]
+> - Transformation Rules:
+>   - For lowercase letters: `newChar = ((originalChar - 'a' + 3) % 26) + 'a'`
+>   - For uppercase letters: `newChar = ((originalChar - 'A' + 3) % 26) + 'A'`
+> - Non-alphabetical characters (e.g., punctuation, digits, spaces) remain unchanged in the output.
+> - Use modular arithmetic to handle wrapping within the alphabet.
