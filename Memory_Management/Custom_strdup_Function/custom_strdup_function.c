@@ -20,15 +20,13 @@
  * @return char* duplcated string pointer
  */
 char * duplicate_str(const char * str) {
+    if (!str) {
+        printf("ERROR: Input string is NULL.\n");
+        return NULL;
+    }
+
     // Calculate the length of the string
     int str_len = strlen(str);
-
-    // Validate the null terminated string
-    if (str[str_len] == '\0') {
-        printf("Null Terminated String.\n");
-    } else {
-        printf("Invalid String.\n");
-    }
 
     // Create a new string pointer and allocate memeory to it
     char * duplicate = (char * )malloc(str_len + 1);
@@ -37,17 +35,14 @@ char * duplicate_str(const char * str) {
         exit(1);
     }
 
-    for (int i = 0; i <= str_len; ++i) {
-        *(duplicate + i) = *(str + i);
-    }
+    // Use strcpy for efficient copying
+    strcpy(duplicate, str);
 
     return duplicate;
 }
 
 int main() {
-    // Input String
     char * source_str = "hello, world!";
-
     char * duplicate = duplicate_str(source_str);
 
     if (duplicate != NULL) {      
