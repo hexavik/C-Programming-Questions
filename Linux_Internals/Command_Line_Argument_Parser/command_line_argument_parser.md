@@ -38,6 +38,7 @@ Option --age, Argument: 25
 - Support for a help message to guide users.
 
 > [!NOTE]
+>
 > - **Approach:**
 >   - Use `getopt()` for parsing short options (`-a`, `-b`).
 >   - Use `getopt_long()` for parsing long options (`--name`, `--age`).

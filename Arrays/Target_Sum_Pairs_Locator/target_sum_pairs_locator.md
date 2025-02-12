@@ -33,16 +33,16 @@ result = [(2, 5), (4, 3), (-2, 9)]
 - Ensure no duplicate pairs are included in the output.
 - Handle negative numbers and zeros appropriately.
 
-**Notes:**
-
-- **Transformation Logic:**
-  - Iterate through the array and use a hash map (dictionary) to store the complements of the numbers seen so far.
-  - For each number, check if its complement (i.e., target - number) exists in the hash map.
-  - If the complement exists, add the pair to the result.
-- **Output Format:**
-  - The order of pairs does not matter.
-  - Avoid duplicate entries by ensuring each pair is only added once
-- **Edge Cases:**
-  - Input array is empty: [].
-  - No pairs match the target sum.
-  - Input contains multiple duplicates of the same number.
+> [!NOTE]
+>
+> - **Transformation Logic:**
+>   - Iterate through the array and use a hash map (dictionary) to store the complements of the numbers seen so far.
+>   - For each number, check if its complement (i.e., target - number) exists in the hash map.
+>   - If the complement exists, add the pair to the result.
+> - **Output Format:**
+>   - The order of pairs does not matter.
+>   - Avoid duplicate entries by ensuring each pair is only added once
+> - **Edge Cases:**
+>   - Input array is empty: [].
+>   - No pairs match the target sum.
+>   - Input contains multiple duplicates of the same number.

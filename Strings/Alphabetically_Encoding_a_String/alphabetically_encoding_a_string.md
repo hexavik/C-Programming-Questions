@@ -31,6 +31,7 @@ result = "def"
 - Wrapping occurs after 'z' for lowercase letters and after 'Z' for uppercase letters.
 
 > [!NOTE]
+>
 > - Transformation Rules:
 >   - For lowercase letters: `newChar = ((originalChar - 'a' + 3) % 26) + 'a'`
 >   - For uppercase letters: `newChar = ((originalChar - 'A' + 3) % 26) + 'A'`

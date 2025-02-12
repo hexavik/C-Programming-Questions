@@ -32,16 +32,16 @@ result = true
 - Strings may include non-alphabetical characters, which should be ignored during comparisons.
 - Empty strings cannot be anagrams of non-empty strings.
 
-**Notes:**
-
-- Approach:
-  - Normalize both strings by: Removing non-alphabetical characters and converting all characters to lowercase.
-  - Count the frequency of each character in both strings.
-  - Compare the character frequency distributions of the two strings.
-- Optimal Solution:
-  - Use a hash map or dictionary to count character frequencies.
-  - Alternatively, sort both strings and compare them.
-- Edge Cases:
-  - Strings with different lengths cannot be anagrams.
-  - Empty strings should return `False`.
-  - Strings containing only spaces or special characters should be treated as empty.
+> [!NOTE]
+>
+> - Approach:
+>   - Normalize both strings by: Removing non-alphabetical characters and converting all characters to lowercase.
+>   - Count the frequency of each character in both strings.
+>   - Compare the character frequency distributions of the two strings.
+> - Optimal Solution:
+>   - Use a hash map or dictionary to count character frequencies.
+>   - Alternatively, sort both strings and compare them.
+> - Edge Cases:
+>   - Strings with different lengths cannot be anagrams.
+>   - Empty strings should return `False`.
+>   - Strings containing only spaces or special characters should be treated as empty.

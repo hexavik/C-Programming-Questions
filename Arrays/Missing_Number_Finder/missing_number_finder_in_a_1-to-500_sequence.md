@@ -29,7 +29,7 @@ result = 3
 - The array contains no duplicates.
 - The array contains integers only within the range of 1 to 500.
 
-**Notes:**
-
-- The solution should work efficiently, ideally in O(n) time.
-- Consider leveraging the mathematical formula for the sum of the fisrt `n` natural numbers: Sum = n × (n + 1)​ / 2
+> [!NOTE]
+>
+> - The solution should work efficiently, ideally in O(n) time.
+> - Consider leveraging the mathematical formula for the sum of the fisrt `n` natural numbers: Sum = n × (n + 1)​ / 2

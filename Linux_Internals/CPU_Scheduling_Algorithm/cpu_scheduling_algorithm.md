@@ -46,6 +46,7 @@ Avergae Waiting Time: 4.00
 - Assume all processes arrive at time 0 (for simplicity), but the implementation can be extended for varying arrival times.
 
 > [!NOTE]
+>
 > - **Approach:**
 >   - Use a queue to manage processes.
 >   - Process execution happens in time slices defined by the quantum.

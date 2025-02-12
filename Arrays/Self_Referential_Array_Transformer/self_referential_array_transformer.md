@@ -29,9 +29,9 @@ result = [0, 1, 2, 3];
 - The input array arrarr must contain integers within the range `[0,n−1]`.
 - The transformation must be performed in-place, i.e., without using an auxiliary array for storing intermediate values.
 
-**Notes:**
-
-- **Transformation Logic:**
-  - For each index ii, calculate the new value as `arr[arr[i]]` using the original array values.
-  - Use encoding techniques (e.g., storing multiple values in a single element) to ensure the transformation can occur in-place without losing the original data.
-- Ensure that the program does not modify the array until all transformations are accounted for to avoid conflicts.
+> [!NOTE]
+>
+> - **Transformation Logic:**
+>   - For each index ii, calculate the new value as `arr[arr[i]]` using the original array values.
+>   - Use encoding techniques (e.g., storing multiple values in a single element) to ensure the transformation can occur in-place without losing the original data.
+> - Ensure that the program does not modify the array until all transformations are accounted for to avoid conflicts.

@@ -34,9 +34,9 @@ result = [1, 2, 3, 4, 5, 6]
 - The resulting merged array must also be sorted in non-decreasing order.
 - The function should handle empty arrays gracefully (e.g., merging `[]` and `[1,2,3]`).
 
-**Notes:**
-
-- **Merge Logic:**
-  - Use two pointers, one for each array, to compare elements.
-  - Append the smaller element to the result and move the pointer forward in the respective array.
-  - If elements remain in one array after the other is exhausted, append the remaining elements to the result.
+> [!NOTE]
+>
+> - **Merge Logic:**
+>   - Use two pointers, one for each array, to compare elements.
+>   - Append the smaller element to the result and move the pointer forward in the respective array.
+>   - If elements remain in one array after the other is exhausted, append the remaining elements to the result.

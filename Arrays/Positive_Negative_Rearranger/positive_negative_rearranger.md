@@ -35,7 +35,7 @@ result = [2, -1, 4, -3, 5, -7, 6, 8, 9]
   - Excess negative integers should appear at the end.
 - Zero is neither positive nor negative but can be treated as a positive number if included.
 
-**Notes:**
-
-- **Approach 1:** Use two separate arrays to store positive and negative numbers, then merge them alternately.
-- **Approach 2 (In-place):** Rearrange the elements directly within the original array using pointer manipulation.
+> [!NOTE]
+>
+> - **Approach 1:** Use two separate arrays to store positive and negative numbers, then merge them alternately.
+> - **Approach 2 (In-place):** Rearrange the elements directly within the original array using pointer manipulation.

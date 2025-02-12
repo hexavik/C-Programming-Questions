@@ -31,7 +31,7 @@ result = 3
 - The array may contain duplicate elements.
 - If the target is not found, the output should be `0`.
 
-**Notes:**
-
-- Aim for an efficient solution using binary search techniques to find the first and last occurrence of the target, achieving **O(log n)** time complexity.
-- A straightforward solution could involve linear traversal, with a complexity of **O(n)**.
+> [!NOTE]
+>
+> - Aim for an efficient solution using binary search techniques to find the first and last occurrence of the target, achieving **O(log n)** time complexity.
+> - A straightforward solution could involve linear traversal, with a complexity of **O(n)**.

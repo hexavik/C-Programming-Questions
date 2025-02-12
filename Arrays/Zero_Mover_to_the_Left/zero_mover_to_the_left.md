@@ -30,13 +30,13 @@ result = [0, 0, 0, 1, 2, 4, 3, 5]
 - The array should be modified in-place, with minimal extra space usage.
 - Maintain the relative order of non-zero numbers.
 
-**Notes:**
-
-- Approach:
-  - Traverse the array from right to left, ensuring zero values are shifted towards the beginning
-  - Use a pointer or index to track the position for inserting zeros and rearranging non-zero values.
-- Avoid unnecessary swaps or auxiliary data structures, aiming for optimal efficiency.
-- Edge Cases:
-  - The array contains no zeros, e.g., `[1, 2, 3]`.
-  - The array contains only zeros, e.g., `[0, 0, 0]`.
-  - Large arrays with interspersed zeros and non-zero numbers.
+> [!NOTE]
+>
+> - Approach:
+>   - Traverse the array from right to left, ensuring zero values are shifted towards the beginning
+>   - Use a pointer or index to track the position for inserting zeros and rearranging non-zero values.
+> - Avoid unnecessary swaps or auxiliary data structures, aiming for optimal efficiency.
+> - Edge Cases:
+>   - The array contains no zeros, e.g., `[1, 2, 3]`.
+>   - The array contains only zeros, e.g., `[0, 0, 0]`.
+>   - Large arrays with interspersed zeros and non-zero numbers.

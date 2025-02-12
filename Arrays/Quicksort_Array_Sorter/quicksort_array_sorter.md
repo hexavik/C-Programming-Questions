@@ -29,11 +29,11 @@ result = [11, 12, 22, 25, 34, 64, 90]
 - The input array may contain positive, negative, or zero values.
 - The algorithm should be implemented recursively using the divide-and-conquer approach.
 
-**Notes:**
-
-- Quicksort Algorithm Overview:
-  - Choose a "pivot" element from the array.
-  - Partition the array such that all elements less than the pivot are placed to its left, and all elements greater than the pivot are placed to its right.
-  - Recursively apply the same logic to the subarrays on either side of the pivot.
-  - Combine the results to form the final sorted array.
-- Ensure your implementation efficiently handles arrays with duplicate elements and varying lengths.
+> [!NOTE]
+>
+> - Quicksort Algorithm Overview:
+>   - Choose a "pivot" element from the array.
+>   - Partition the array such that all elements less than the pivot are placed to its left, and all elements greater than the pivot are placed to its right.
+>   - Recursively apply the same logic to the subarrays on either side of the pivot.
+>   - Combine the results to form the final sorted array.
+> - Ensure your implementation efficiently handles arrays with duplicate elements and varying lengths.

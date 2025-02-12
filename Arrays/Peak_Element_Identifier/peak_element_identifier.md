@@ -32,9 +32,9 @@ result  = 20
 - The array may contain duplicates.
 - If the array contains only one element, that element is the peak.
 
-**Notes:**
-
-- Aim for an efficient solution using a **binary search** technique, which achieves **O(log n)** time complexity.
-- A straightforward solution involves linear traversal with **O(n)** time complexity.
-- If implementing a binary search, focus on dividing the array into halves and checking the middle element's neighbors.
-- Using straight `for` loop is also efficient enough.
+> [!NOTE]
+>
+> - Aim for an efficient solution using a **binary search** technique, which achieves **O(log n)** time complexity.
+> - A straightforward solution involves linear traversal with **O(n)** time complexity.
+> - If implementing a binary search, focus on dividing the array into halves and checking the middle element's neighbors.
+> - Using straight `for` loop is also efficient enough.

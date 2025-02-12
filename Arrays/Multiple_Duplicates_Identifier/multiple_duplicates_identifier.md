@@ -30,7 +30,7 @@ result = [2, 3]
 - The output list should only include each duplicate number once, regardless of how many times it appears.
 - If no duplicates are found, the output should be an empty list.
 
-**Notes:**
-
-- Aim for an efficient solution in terms of time and space complexity. If extra space is allowed, consider using a hash table or dictionary.
-- For an **in-place** solution, consider using the input array itself for marking visited elements.
+> [!NOTE]
+>
+> - Aim for an efficient solution in terms of time and space complexity. If extra space is allowed, consider using a hash table or dictionary.
+> - For an **in-place** solution, consider using the input array itself for marking visited elements.
