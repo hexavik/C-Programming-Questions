@@ -127,7 +127,7 @@ Programming challenges for beginners and mid-level C programmers.
 
 ## Memory Management
 
-- [ ] Custom strdup Function
+- [x] Custom strdup Function
 - [ ] Dynamic Array
 - [ ] Fragmentation Detector
 - [ ] Garbage Collector Simulator
