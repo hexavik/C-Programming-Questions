@@ -103,7 +103,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] CPU Information Fetcher
 - [x] CPU Scheduling Algorithm
 - [x] Custom Signal Handling
-- [ ] Custom Init Process
+- [x] Custom Init Process
 - [ ] Custom malloc free
 - [ ] Custom ps command
 - [ ] File Copy Program
