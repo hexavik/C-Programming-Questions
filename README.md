@@ -102,7 +102,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Command Line Argument Parser
 - [x] CPU Information Fetcher
 - [x] CPU Scheduling Algorithm
-- [ ] Custom Signal Handling
+- [x] Custom Signal Handling
 - [ ] Custom Init Process
 - [ ] Custom malloc free
 - [ ] Custom ps command
