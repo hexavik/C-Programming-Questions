@@ -105,7 +105,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Custom Signal Handling
 - [x] Custom Init Process
 - [ ] Custom malloc free
-- [ ] Custom ps command
+- [x] Custom ps command
 - [ ] File Copy Program
 - [ ] Filesystem Traversal opendir readdir
 - [ ] Implement Priority Inversion Handling
