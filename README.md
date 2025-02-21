@@ -108,7 +108,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Custom ps command
 - [x] File Copy Program
 - [x] Filesystem Traversal opendir readdir
-- [ ] Implement Priority Inversion Handling
+- [x] Implement Priority Inversion Handling
 - [ ] Implement Simple Shell
 - [ ] Implement chmod Command
 - [ ] Implement ping Command
