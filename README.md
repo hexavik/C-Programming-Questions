@@ -129,7 +129,7 @@ Programming challenges for beginners and mid-level C programmers.
 
 - [x] Custom strdup Function
 - [x] Dynamic Array
-- [ ] Fragmentation Detector
+- [x] Fragmentation Detector
 - [ ] Garbage Collector Simulator
 - [ ] Heap Metadata Inspector
 - [ ] Memory Bound Priority Queue
