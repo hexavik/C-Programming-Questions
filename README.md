@@ -130,7 +130,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Custom strdup Function
 - [x] Dynamic Array
 - [x] Fragmentation Detector
-- [ ] Garbage Collector Simulator
+- [x] Garbage Collector Simulator
 - [ ] Heap Metadata Inspector
 - [ ] Memory Bound Priority Queue
 - [ ] Memory-Mapped Circular Buffer
