@@ -109,7 +109,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] File Copy Program
 - [x] Filesystem Traversal opendir readdir
 - [x] Implement Priority Inversion Handling
-- [ ] Implement Simple Shell
+- [x] Implement Simple Shell
 - [ ] Implement chmod Command
 - [ ] Implement ping Command
 - [ ] Implement tail Command
