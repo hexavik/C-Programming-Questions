@@ -110,7 +110,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Filesystem Traversal opendir readdir
 - [x] Implement Priority Inversion Handling
 - [x] Implement Simple Shell
-- [ ] Implement chmod Command
+- [x] Implement chmod Command
 - [ ] Implement ping Command
 - [ ] Implement tail Command
 - [ ] Implement watch Command
