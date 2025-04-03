@@ -43,7 +43,7 @@ Programming challenges for beginners and mid-level C programmers.
 
 ## Bit Manipulations
 
-- [ ] Calculate a Power b using Bit Manipulation
+- [x] Calculate a Power b using Bit Manipulation
 - [ ] Check for Alternate Bits
 - [ ] Check if Binary Representation of a Number is Palindrome
 - [ ] Check if Number is Multiple of 3
