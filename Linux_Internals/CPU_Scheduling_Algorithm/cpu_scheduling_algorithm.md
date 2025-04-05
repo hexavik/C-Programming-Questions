@@ -1,10 +1,10 @@
 # CPU Scheduling Algorithm
 
-**Problem Statement:**
+## Problem Statement
 
 Implement a basic CPU scheduling algorithm like **Round Robin**. The program should use a queue to manage processes and simulate the CPU scheduler, computing turnaround and waiting times for each process.
 
-**Requirements:**
+## Requirements
 
 - Implement Round Robin scheduling with a fixed **time quantum**.
 - Use a queue to manage the execution order of processes.
@@ -12,7 +12,7 @@ Implement a basic CPU scheduling algorithm like **Round Robin**. The program sho
 - Display a **Gantt Chart** or a summary of process execution order
 - Handle cases where a process requires multiple CPU bursts due to the time quantum limitation
 
-**Input:**
+## Input
 
 - A list of processes, each with a **process ID**, **burst time**, and optionally an **arrival time**.
 - A **time quantum** value.
@@ -23,7 +23,7 @@ Burst Times: [10, 5, 8]
 Time Quantum: 2
 ```
 
-**Output:**
+## Output
 
 - **Turnaround Time (TAT)** for each process.
 - **Waiting Time (WT)** for each process.
@@ -38,7 +38,7 @@ Avergae Turnaround Time: 12.33
 Avergae Waiting Time: 4.00
 ```
 
-**Constraints:**
+## Constraints
 
 - The time quantum should be greater than zero.
 - Processes should be executed in a circular fashion until they complete.

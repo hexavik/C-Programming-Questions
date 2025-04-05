@@ -1,16 +1,16 @@
 # Positive Negative Rearranger
 
-**Problem Statement:**
+## Problem Statement
 
 Rearrange the elements of an array such that positive numbers and negative numbers alternate in sequence. The relative order of the positive and negative numbers in their respective groups should be preserved.
 
 If it is not possible to alternate (due to an unequal number of positive and negative elements), append the remaining elements of the majority group to the end.
 
-**Requirements:**
+## Requirements
 
 Write a function or program to rearrange the array as described. The relative order of positive and negative elements must be maintained.
 
-**Input:**
+## Input
 
 An integer array `arr` containing both positive and negative integers.
 
@@ -18,7 +18,7 @@ An integer array `arr` containing both positive and negative integers.
 arr = [-1, 2, -3, 4, 5, 6, -7, 8, 9]
 ```
 
-**Output:**
+## Output
 
 An array where positive and negative integers are rearranged alternately, maintaining their relative order in the input.
 
@@ -26,7 +26,7 @@ An array where positive and negative integers are rearranged alternately, mainta
 result = [2, -1, 4, -3, 5, -7, 6, 8, 9]
 ```
 
-**Constraints:**
+## Constraints
 
 - The array can contain both positive and negative integers.
 - There will be at least one positive and one negative number.

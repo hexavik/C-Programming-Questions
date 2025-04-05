@@ -1,14 +1,14 @@
 # Quicksort Array Sorter
 
-**Problem Statement:**
+## Problem Statement
 
 Sort a given array of integers in ascending order using the quicksort algorithm.
 
-**Requirements:**
+## Requirements
 
 Write a program or function that applies the quicksort sorting technique to the input array and returns the array sorted in ascending order.
 
-**Input:**
+## Input
 
 An unsorted integer array `arr` of size `n`, where `n≥1`.
 
@@ -16,15 +16,15 @@ An unsorted integer array `arr` of size `n`, where `n≥1`.
 arr = [64, 34, 25, 12, 22, 11, 90]
 ```
 
-**Output:**
-****
+## Output
+
 The sorted version of the input array `arr`, arranged in ascending order.
 
 ```bash
 result = [11, 12, 22, 25, 34, 64, 90]
 ```
 
-**Constraints:**
+## Constraints
 
 - The input array may contain positive, negative, or zero values.
 - The algorithm should be implemented recursively using the divide-and-conquer approach.

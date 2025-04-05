@@ -1,16 +1,16 @@
 # Power Calculation Using Bit Manippulation
 
-**Problem Statement:**
+## Problem Statement
 
 Write a function to compute a<sup>b</sup> (where `a` is the base and `b` is the exponent) using **bitwise operations** only. Avoid using the built-in power operator (`**`, `pow()`) or any direct multiplication operations.
 
-**Requirements:**
+## Requirements
 
-- Use **bitwise shifts**, **AND (`&`)**, and **XOR (`^`)** operations for calculation.
+- Use **bitwise shifts**, **AND** (`&`), and **XOR** (`^`) operations for calculation.
 - Implement the solution using an **iterative approach** (using bit manipulation and exponentiation by squaring).
 - Return the result as an integer.
 
-**Input:**
+## Input
 
 Two integers as base (`a`) and exponent (`b`).
 
@@ -18,7 +18,7 @@ Two integers as base (`a`) and exponent (`b`).
 a = 2, b = 3
 ```
 
-**Output:**
+## Output
 
 Result of a to the power b.
 
@@ -26,7 +26,7 @@ Result of a to the power b.
 Result: 8
 ```
 
-**Constraints:**
+## Constraints
 
 - 1 ≤ a ≤ 10<sup>5</sup>
 - 0 ≤ b ≤ 31 (since the result fits within a 32-bit integer)

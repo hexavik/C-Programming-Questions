@@ -1,10 +1,10 @@
 # Dynamic Array
 
-**Problem Statement:**
+## Problem Statement
 
 Implement a **dynamic array** that can automatically **resize itself** as elements are added or removed.
 
-**Requirements:**
+## Requirements
 
 - Start with an initial fixed size for the array.
 - When adding an element:
@@ -15,7 +15,7 @@ Implement a **dynamic array** that can automatically **resize itself** as elemen
 - Support basic operations like **insertion**, **deletion**, and **accessing elements**.
 - Ensure efficient **resizing strategy** (e.g., doubling size on expansion, halving on shrink).
 
-**Input:**
+## Input
 
 A series of operations such as inserting or removing elements.
 
@@ -24,7 +24,7 @@ Add: 5, 10, 15, 20
 Remove: 10
 ```
 
-**Output:**
+## Output
 
 The updated state of the dynamic array after operations.
 
@@ -32,7 +32,7 @@ The updated state of the dynamic array after operations.
 Dynamic array: [5, 15, 20]
 ```
 
-**Constraints:**
+## Constraints
 
 - The array should handle **dynamic resizing efficiently** to balance performance and memory usage.
 - Ensure **O(1) average time complexity** for adding/removing elements.

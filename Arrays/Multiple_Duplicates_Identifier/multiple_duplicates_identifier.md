@@ -1,14 +1,14 @@
 # Mutliple Duplicates Identifier
 
-**Problem Statement:**
+## Problem Statement
 
 Given an integer array, design a program to identify all the numbers that appear more than once in the array.
 
-**Requirements:**
+## Requirements
 
 Write a function or program that takes an integer array as input and returns a list of numbers that have duplicates in the array.
 
-**Input:**
+## Input
 
 A single integer array `arr` of size `n`, where `n≥1`.
 
@@ -16,7 +16,7 @@ A single integer array `arr` of size `n`, where `n≥1`.
 arr = [4, 3, 2, 7, 8, 2, 3, 1]
 ```
 
-**Output:**
+## Output
 
 An array or list of integers representing the numbers that appear more than once in the input array.
 
@@ -24,7 +24,7 @@ An array or list of integers representing the numbers that appear more than once
 result = [2, 3]
 ```
 
-**Constraints:**
+## Constraints
 
 - The input array may contain both positive and negative integers.
 - The output list should only include each duplicate number once, regardless of how many times it appears.

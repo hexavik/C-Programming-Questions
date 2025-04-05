@@ -1,14 +1,14 @@
 # Alphabetically Encoding a String
 
-**Problem Statement:**
+## Problem Statement
 
 Encode a given string by replacing each character with the third character after it in the English alphabet. If a character exceeds 'z', it should wrap around to the start of the alphabet.
 
-**Requirements:**
+## Requirements
 
 Write a program or function to transform the input string as described, ensuring that only alphabetical characters are processed, while preserving their case.
 
-**Input:**
+## Input
 
 A string `inputString` containing any combination of lowercase and uppercase letters.
 
@@ -16,7 +16,7 @@ A string `inputString` containing any combination of lowercase and uppercase let
 inputString = "abc"
 ```
 
-**Output:**
+## Output
 
 A new string where each alphabetical character is replaced with the third character after it in the alphabet. Non-alphabetical characters remain unchanged.
 
@@ -24,7 +24,7 @@ A new string where each alphabetical character is replaced with the third charac
 result = "def"
 ```
 
-**Constraints:**
+## Constraints
 
 - The string can include both lowercase (`a-z`) and uppercase (`A-Z`) letters.
 - Non-alphabetical characters should not be altered.

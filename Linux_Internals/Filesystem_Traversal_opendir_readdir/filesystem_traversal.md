@@ -1,17 +1,17 @@
 # Filesystem Traversal Using `opendir()` and `readdir()`
 
-**Problem Statement:**
+## Problem Statement
 
 Write a C program to recursively traverse a directory and list all files and subdirectories. Use low-level directory handling system calls like `opendir()`, `readdir()`, and `closedir()` to read directory contents.
 
-**Requirements:**
+## Requirements
 
 - Use `opendir()`, `readdir()`, and `closedir()` from *dirent.h* to access directory entries.
 - Recursively explore subdirectories to list all files and folders.
 - Display full paths for each file and directory.
 - Handle symbolic links appropriately.
 
-**Input:**
+## Input
 
 Path to the root directory to start traversal.
 
@@ -19,7 +19,7 @@ Path to the root directory to start traversal.
 Root directory: /home/user/Documents
 ```
 
-**Output:**
+## Output
 
 A list of all files and directories, including their paths.
 
@@ -30,7 +30,7 @@ A list of all files and directories, including their paths.
 /home/user/Documents/folder2
 ```
 
-**Constraints:**
+## Constraints
 
 - The program should support directory structures up to **100 levels deep**.
 - Maximum path length should be **4096 characters** (as per POSIX).

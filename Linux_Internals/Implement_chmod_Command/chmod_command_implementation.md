@@ -1,10 +1,10 @@
 # `chmod` Command Implementation
 
-**Problem Statement:**
+## Problem Statement
 
 Design and implement a program in C that mimics the basic functionality of the `chmod` Linux command. The program should allow users to change file permissions using both octal and symbolic modes, leveraging the `chmod()` system call.
 
-**Requirements:**
+## Requirements
 
 - Support changing file permissions using:
   - **Octal mode** (e.g., `chamod 755 file.txt`).
@@ -13,7 +13,7 @@ Design and implement a program in C that mimics the basic functionality of the `
 - Accept file paths and permission codes as input arguments.
 - Handle invalid file paths, incorrect permission codes, and insufficient permissions.
 
-**Input:**
+## Input
 
 The program should accept two arguments:
 
@@ -23,7 +23,7 @@ The program should accept two arguments:
 ./chmod_sim 644 /home/user/file.txt
 ```
 
-**Output:**
+## Output
 
 On success, print a confirmation message; whereas, on failed, display relevant errors.
 
@@ -35,7 +35,7 @@ on failed:
 Error: Invalid file path or insufficient permissions.
 ```
 
-**Constraints:**
+## Constraints
 
 - Ensure the program accepts **3-digit octal numbers** only (000 to 777).
 - Ensure to use valid file paths.

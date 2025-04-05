@@ -1,14 +1,14 @@
 # Duplicate Number Detector
 
-**Problem Statement:**
+## Problem Statement
 
 Given an integer array, your objective is to design a program that identifies if there are any duplicate numbers in the array.
 
-**Requirements:**
+## Requirements
 
 Write a function or program that takes an integer array as input and determines if there exists any integer that appears more frequently than it should, indicatiing the presence of a duplicate.
 
-**Input:**
+## Input
 
 The input consists of a single integer array, denoted as `arr`.
 
@@ -16,7 +16,7 @@ The input consists of a single integer array, denoted as `arr`.
 arr = [3, 1, 4, 2, 3]
 ```
 
-**Output:**
+## Output
 
 The program shoould output a boolean value (`True` or `False`) indicating whether there are duplicate numbers in the array.
 
@@ -24,7 +24,7 @@ The program shoould output a boolean value (`True` or `False`) indicating whethe
 Result = True
 ```
 
-**Constraints:**
+## Constraints
 
 - The input array can have duplicate elements.
 - The output should be `True` if any duplicate is found and `False` otherwise.

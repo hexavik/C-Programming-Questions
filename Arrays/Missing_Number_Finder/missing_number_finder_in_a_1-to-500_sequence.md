@@ -1,14 +1,14 @@
 # Missing Number Finder in a 1-to-500 Sequence
 
-**Problem Statement:**
+## Problem Statement
 
 Given an integer array containing a sequence of numbers from 1 to 500 with exactly one number missing, design a program to identify the missing number.
 
-**Requirements:**
+## Requirements
 
 Write a function or program that takes an integer array as input and determines the missing number from the sequence.
 
-**Input:**
+## Input
 
 A single integer array `arr` of size 499, containing numbers from 1 to 500 in random order, with one number missing.
 
@@ -16,7 +16,7 @@ A single integer array `arr` of size 499, containing numbers from 1 to 500 in ra
 arr = [1, 2, 4, 5]
 ```
 
-**Output:**
+## Output
 
 An integer representing the missing number in the sequence.
 
@@ -24,7 +24,7 @@ An integer representing the missing number in the sequence.
 result = 3
 ```
 
-**Constraints:**
+## Constraints
 
 - The array contains no duplicates.
 - The array contains integers only within the range of 1 to 500.

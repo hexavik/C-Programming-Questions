@@ -1,14 +1,14 @@
 # Self-Referential Array Transformer
 
-**Problem Statement:**
+## Problem Statement
 
 Rearrange a given array such that for each index `i`, the value at `arr[i]` is updated to the value at the index specified by the original `arr[i]`.
 
-**Requirements:**
+## Requirements
 
 Write a program or function to transform the array as described, without using additional arrays to store intermediate results.
 
-**Input:**
+## Input
 
 An integer array `arr` of size `n`, where `n≥1`. Each element `arr[i]` satisfies `0≤arr[i]<n`.
 
@@ -16,7 +16,7 @@ An integer array `arr` of size `n`, where `n≥1`. Each element `arr[i]` satisfi
 arr = [2, 0, 1, 3]
 ```
 
-**Output:**
+## Output
 
 The transformed array `arr`, where `arr[i]` becomes `arr[arr[i]]` for all valid indices `i`.
 
@@ -24,7 +24,7 @@ The transformed array `arr`, where `arr[i]` becomes `arr[arr[i]]` for all valid 
 result = [0, 1, 2, 3];
 ```
 
-**Constraints:**
+## Constraints
 
 - The input array arrarr must contain integers within the range `[0,n−1]`.
 - The transformation must be performed in-place, i.e., without using an auxiliary array for storing intermediate values.

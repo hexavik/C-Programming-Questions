@@ -1,20 +1,20 @@
 # Custom `ps` Command
 
-**Problem Statement:**
+## Problem Statement
 
 Implement a simplified version of the `ps` command in C to display a list of currently running processes on a Linux system. The program should read process information from the `/proc` filesystem and display key details such as **PID**, **command name**, and **state**.
 
-**Requirements:**
+## Requirements
 
 - Traverse the `/proc` directory to identify all running processes.
 - Extract and display process details from files like `/proc/[pid]/stat`.
 - Display the **PID**, **command name**, and **state** of each running process in a formatted table.
 
-**Input:**
+## Input
 
 No user input required since the program will automatically read form the `/proc` filesystem.
 
-**Output:**
+## Output
 
 A formatted table displaying currently running processes.
 
@@ -26,7 +26,7 @@ PID       STATE COMMAND
 3201      R     custom_ps
 ```
 
-**Constraints:**
+## Constraints
 
 - Handle up to 10,000 processes efficiently.
 - Ensure proper error handling when accessing `/proc` files.

@@ -1,10 +1,10 @@
 # Simple Shell Implementation
 
-**Problem Statement:**
+## Problem Statement
 
 Design and implement a minimal shell in C that can execute basic Linux commands. The shell should support user input, parse commands, and use system calls like `fork()` and `exec()` to create child processes and run commands.
 
-**Requirements:**
+## Requirements
 
 - Continuously read user input to accept shell commands.
 - Parse the input to separate the **command** and its **arguments**.
@@ -14,7 +14,7 @@ Design and implement a minimal shell in C that can execute basic Linux commands.
 - Implement a basic `cd` command to change the current working directory using `chdir()`.
 - Support `exit` to terminate the shell.
 
-**Input:**
+## Input
 
 A single line containing a shell command (with optional arguments).
 
@@ -25,7 +25,7 @@ cd /home
 exit
 ```
 
-**Output:**
+## Output
 
 The output of the executed command, or an error message if the command is invalid.
 
@@ -40,7 +40,7 @@ $ pwd
 /home/user
 ```
 
-**Constraints:**
+## Constraints
 
 - Implement using **POSIX system calls**.
 - Limit input to **1024 charcaters per line**.

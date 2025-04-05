@@ -1,10 +1,10 @@
 # Command-line argument Parser
 
-**Problem Statement:**
+## Problem Statement
 
 Write a C program that takes various command-line options and arguments and prints them. The program should use the `getopt()` function to parse command-line options and their corresponding arguments.
 
-**Requirements:**
+## Requirements
 
 - Use the `getopt()` function to handle command-line options.
 - Support both short (`-a`, `-b`) and long (`--option`) arguments.
@@ -12,7 +12,7 @@ Write a C program that takes various command-line options and arguments and prin
 - Handle cases where an option requires an argument.
 - Provide a help message (`-h` or `--help`) displaying available options.
 
-**Input:**
+## Input
 
 Command-line options and arguments passed during program execution.
 
@@ -20,7 +20,7 @@ Command-line options and arguments passed during program execution.
 ./parser -a -b value --name=John --age 25
 ```
 
-**Output:**
+## Output
 
 Parsed options and their values.
 
@@ -31,7 +31,7 @@ Option --name, Argument: John
 Option --age, Argument: 25
 ```
 
-**Constraints:**
+## Constraints
 
 - The program should handle invalid or missing arguments gracefully.
 - Options may have required or optional arguments

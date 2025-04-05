@@ -1,22 +1,22 @@
 # File Copy Program
 
-**Problem Statement:**
+## Problem Statement
 
 Write a C program to copy the contents of one file to another using low-level file operations. Use system calls like `open()`, `read()`, and `write()` to perform the file copy operation. The program should handle errors and provide appropriate status messages.
 
-**Requirements:**
+## Requirements
 
 - Use the `open()`, `read()`, `write()`, and `close()` system calls for file operations.
 - Copy the entire content from the **source file** to the **destination file**.
 - Handle errors such as file not found, permission denied, or insufficient space.
 - Ensure that the program closes all file descriptors properly.
 
-**Input:**
+## Input
 
 - Source file path (file to copy from).
 - Destination file path (file to copy to).
 
-**Output:**
+## Output
 
 Status messages indicating the success or failure of the file copy operation.
 
@@ -30,7 +30,7 @@ In case of an error:
 Error: Source file not found
 ```
 
-**Constraints:**
+## Constraints
 
 - The program should handle files up to **1 GB** in size.
 - Use a buffer for efficient copying (e.g., **4096 bytes per read/write** operation).

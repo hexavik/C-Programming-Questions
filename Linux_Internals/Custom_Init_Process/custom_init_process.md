@@ -1,10 +1,10 @@
 # Custom Init Process
 
-**Problem Statement:**
+## Problem Statement
 
 Write a custom init process to replace the default init for embedded Linux. Research how init works and write a C program that performs the necessary initialization steps.
 
-**Requirements:**
+## Requirements
 
 - The init process must be implemented in C.
 - It should handle basic system initialization tasks.
@@ -15,17 +15,17 @@ Write a custom init process to replace the default init for embedded Linux. Rese
 - Must be able to execute essential startup scripts or commands.
 - Proper logging of initialization steps.
 
-**Input:**
+## Input
 
 None
 
-**Output:**
+## Output
 
 ```bash
 System booted with custom init
 ```
 
-**Constraints:**
+## Constraints
 
 - Must run as PID 1 (first process after the kernel).
 - Limited to standard C libraries available in embedded Linux environments.

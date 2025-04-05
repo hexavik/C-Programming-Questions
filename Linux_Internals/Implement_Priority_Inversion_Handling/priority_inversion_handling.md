@@ -1,21 +1,21 @@
 # Priority Inversion Handling Simulation
 
-**Problem Statement:**
+## Problem Statement
 
 Simulate **Priority Inversion**, a situation where a higher-priority thread is blocked by a lower-priority thread holding a shared resource. Implement a solution using techniques such as **Priority Inheritance** to resolve the inversion. The program should use **threads**, **mutexes**, and **synchronization primitives** to demonstrate and fix the issue.
 
-**Requirements:**
+## Requirements
 
 - Create three threads with different priorities: **High**, **Medium**, and **Low**.
 - Use a **mutex** to simulate a shared resource.
 - Demonstrate **priority inversion**, where the **High-priority** thread waits because the **Low-priority** thread holds the resource, and the **Medium-priority** thread preempts the system.
 - Implement a solution to resolve the inversion using techniques such as **Priority Inheritance Protocol**.
 
-**Input:**
+## Input
 
 No user input required; the program will simulate the priority inversion scenario.
 
-**Output:**
+## Output
 
 Display logs showing the execution order of threads and the impact of priority inversion. Show the corrected behavior after applying the solution.
 
@@ -28,7 +28,7 @@ Display logs showing the execution order of threads and the impact of priority i
 [High] Completed
 ```
 
-**Constraints:**
+## Constraints
 
 - The solution should be implemented using **POSIX threads (pthreads)**.
 - Use **mutexes** and **condition variables** for synchronization.

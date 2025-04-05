@@ -1,14 +1,14 @@
 # Sorted Array Merger
 
-**Problem Statement:**
+## Problem Statement
 
 Merge two sorted arrays into a single sorted array. The resulting array must maintain the order of sorting.
 
-**Requirements:**
+## Requirements
 
 Write a program or function to combine two sorted arrays into a single array, ensuring the elements are in ascending order.
 
-**Input:**
+## Input
 
 Two sorted integer arrays:
 
@@ -20,7 +20,7 @@ arr1 = [1, 3, 5]
 arr2 = [2, 4, 6]
 ```
 
-**Output:**
+## Output
 
 A single sorted array that merges all elements of `arr1` and `arr2.
 
@@ -28,7 +28,7 @@ A single sorted array that merges all elements of `arr1` and `arr2.
 result = [1, 2, 3, 4, 5, 6]
 ```
 
-**Constraints:**
+## Constraints
 
 - The input arrays `arr1` and `arr2` are sorted in non-decreasing order.
 - The resulting merged array must also be sorted in non-decreasing order.

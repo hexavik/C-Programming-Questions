@@ -1,10 +1,10 @@
 # Garbage Collector Simulator
 
-**Problem Statement:**
+## Problem Statement
 
 Implement a simple **Mark-and-Sweep Garbage Collector** in C. The simulator should allow dynamic memory allocation, marking of live objects, and garbage collection by sweeping unmarked blocks.
 
-**Requirements:**
+## Requirements
 
 - Use **linked list** or **array** to keep track of all allocated mmemory blocks for **memory representation**.
 - **Block Structure**: Each block should have
@@ -17,7 +17,7 @@ Implement a simple **Mark-and-Sweep Garbage Collector** in C. The simulator shou
   - Sweep: Free all unmarked blocks and unmark the rest.
 - Display which block were collected or preserved during the sweep as an output.
 
-**Input:**
+## Input
 
 A series of commands, one per line:
 
@@ -32,7 +32,7 @@ Mark 5
 Sweep
 ```
 
-**Output:**
+## Output
 
 After each command, print the corresponding result:
 
@@ -47,7 +47,7 @@ Marked block at adress 1001
 Collected 7 bytes at adress 1002
 ```
 
-**Constraints:**
+## Constraints
 
 - Maximum of **100 allocated blocks** at a time.
 - Block size range from **1 to 1024 bytes**.

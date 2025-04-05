@@ -1,10 +1,10 @@
 # Custom Signal Handling
 
-**Problem Statement:**
+## Problem Statement
 
 Write a program that **custom handles signals** as `SIGINT` and `SIGTERM`. The program should catch these signals using `signal()` or `sigaction()` and execute a **custom action** when the signal is received.
 
-**Requirements:**
+## Requirements
 
 - Use `signal()` or `sigaction()` to register custom signal handlers.
 - Print a custom message or execute a specific action upon receiving a signal.
@@ -12,7 +12,7 @@ Write a program that **custom handles signals** as `SIGINT` and `SIGTERM`. The p
 - Allow cleanup operations before exiting when a termination signal is received.
 - The program should continue running until a termination signal is received.
 
-**Input:**
+## Input
 
 A **signal type** sent via keyboard (`Ctrl+C`) or system commands (`kill -TERM <pid>`).
 
@@ -20,7 +20,7 @@ A **signal type** sent via keyboard (`Ctrl+C`) or system commands (`kill -TERM <
 User presses Ctrl+C (SIGINT)
 ```
 
-**Output:**
+## Output
 
 A **custom message or action** executed upon receiving the signal.
 
@@ -28,7 +28,7 @@ A **custom message or action** executed upon receiving the signal.
 Received SIGINT! Cleaning up resources...
 ```
 
-**Constraints:**
+## Constraints
 
 - The program should not exit immediately on receiving `SIGINT`, unless specified.
 - **Multiple signals should be handled correctly** without undefined behavior.

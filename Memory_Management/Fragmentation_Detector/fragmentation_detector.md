@@ -1,10 +1,10 @@
 # Fragmentation Detector
 
-**Problem Statement:**
+## Problem Statement
 
 Write a program that **simulates memory allocation and deallocation**, tracking fragmentation in a fixed-size memory pool.
 
-**Requirements:**
+## Requirements
 
 - Use a **fixed-size memory pool** to simulate memory allocation.
 - Keep track of allocated and free memory blocks efficiently.
@@ -13,7 +13,7 @@ Write a program that **simulates memory allocation and deallocation**, tracking 
 - Ensure efficient memory management using linked lists, sorted lists, or trees to track free blocks.
 - Display the current memory state after each operation.
 
-**Input:**
+## Input
 
 A series of memory operations, such as allocation and deallocation requests.
 
@@ -23,7 +23,7 @@ Free 5
 Allocate 3
 ```
 
-**Output:**
+## Output
 
 The fragmentation amount in bytes after each operation.
 
@@ -31,7 +31,7 @@ The fragmentation amount in bytes after each operation.
 Fragmentation = 2 bytes
 ```
 
-**Constraints:**
+## Constraints
 
 - The memory pool size is fixed and predefined.
 - Allocations and deallocations should be efficient to minimize overhead.

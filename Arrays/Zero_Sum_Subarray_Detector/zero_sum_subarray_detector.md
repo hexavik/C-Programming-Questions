@@ -1,14 +1,14 @@
 # Zero Sum Subarray Detector
 
-**Problem Statement:**
+## Problem Statement
 
 Determine whether a given array contains any subarray (subset of consecutive elements) whose sum equals zero.
 
-**Requirements:**
+## Requirements
 
 Write a program or function to check for the existence of a zero-sum subarray in the given array.
 
-**Input:**
+## Input
 
 An array `arr` of integers of size `n`, which can contain both positive and negative numbers.
 
@@ -16,7 +16,7 @@ An array `arr` of integers of size `n`, which can contain both positive and nega
 arr =[4, 2, -3, 1, 6]
 ```
 
-**Output:**
+## Output
 
 If there exists a subarray with a sum of zero, return `true`, else `false`.
 
@@ -24,7 +24,7 @@ If there exists a subarray with a sum of zero, return `true`, else `false`.
 result = true
 ```
 
-**Constraints:**
+## Constraints
 
 - The array can contain both positive and negative integers.
 - The function should aim for optimal performance with minimal computational overhead.

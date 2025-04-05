@@ -1,14 +1,14 @@
 # Occurrence Counter in a Sorted Array
 
-**Problem Statement:**
+## Problem Statement
 
 Given a sorted integer array and a target number, design a program to count the number of times the target appears in the array.
 
-**Requirements:**
+## Requirements
 
 Write a function or program that takes a sorted array and a target number as inputs and returns the count of occurrences of the target in the array.
 
-**Input:**
+## Input
 
 A sorted integer array `arr` of size `n`, where `n≥1`. An integer `target` to find in the array.
 
@@ -17,7 +17,7 @@ arr = [1, 2, 2, 2, 3]
 target = 2
 ```
 
-**Output:**
+## Output
 
 An integer representing the number of times the `target` appears in the array.
 
@@ -25,7 +25,7 @@ An integer representing the number of times the `target` appears in the array.
 result = 3
 ```
 
-**Constraints:**
+## Constraints
 
 - The input array is sorted in ascending order.
 - The array may contain duplicate elements.

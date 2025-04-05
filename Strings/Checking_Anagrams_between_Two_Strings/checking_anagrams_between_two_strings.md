@@ -1,14 +1,14 @@
 # Checking Anagram between Two Strings
 
-**Problem Statement:**
+## Problem Statement
 
 Determine whether two given strings are anagrams of each other. Two strings are considered anagrams if they contain the same characters with the same frequency, regardless of the order.
 
-**Requirements:**
+## Requirements
 
 Write a program or function to check if the given strings are anagrams.
 
-**Input:**
+## Input
 
 A string `str1` containing characters (letters, digits, or symbols).
 Another string `str2` to compare against `str1`.
@@ -18,7 +18,7 @@ str1 = "listen"
 str2 = "silent"
 ```
 
-**Output:**
+## Output
 
 Return `true` if the two strings are anagrams, else `false`.
 
@@ -26,7 +26,7 @@ Return `true` if the two strings are anagrams, else `false`.
 result = true
 ```
 
-**Constraints:**
+## Constraints
 
 - Both input strings can contain uppercase and lowercase letters. Comparisons should be case-insensitive.
 - Strings may include non-alphabetical characters, which should be ignored during comparisons.

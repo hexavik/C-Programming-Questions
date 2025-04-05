@@ -1,10 +1,10 @@
 # Heap Metadata Inspector
 
-**Problem Statement:**
+## Problem Statement
 
 Design and implement a **Heap Metadata Inspector** in C that simulates heap memory allocation. The program should maintain metadata for each block—tracking size, usage status, and addresses—and provide a function to inspect and print the current state of the heap.
 
-**Requirements:**
+## Requirements
 
 - Use an **array** to simulate the heap.
 - Metadata structure should have the following fields:
@@ -16,7 +16,7 @@ Design and implement a **Heap Metadata Inspector** in C that simulates heap memo
   - Free (address): Marks the block at the given address as free.
   - Inspect: Iterrates through the heap and prints the status of all blocks.
 
-**Input:**
+## Input
 
 A series of commands to allocate, free, and inspect memory.
 
@@ -27,7 +27,7 @@ Free 2
 Inspect
 ```
 
-**Output:**
+## Output
 
 The **Inspect** command should output each block;s status like this:
 
@@ -36,7 +36,7 @@ Block 1: Used, size: 5
 Block 2: Free, size: 2
 ```
 
-**Constraints:**
+## Constraints
 
 - Maximum of **100 blocks** in the simulated heap.
 - Block sizes range from **1 to 1024 bytes**.

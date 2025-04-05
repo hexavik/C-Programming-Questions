@@ -1,14 +1,14 @@
 # Target Sum Pairs Locator
 
-**Problem Statement:**
+## Problem Statement
 
 Identify all pairs of integers in a given array such that the sum of the pair equals a specified target value.
 
-**Requirements:**
+## Requirements
 
 Write a program or function that identifies all pairs `(a, b)` in the array such that: `a+b=targt`.
 
-**Input:**
+## Input
 
 1. An array of integers `arr`, which may contain duplicates and negative values.
 2. An integer `target` specifying the desired sum of the pairs.
@@ -18,7 +18,7 @@ arr = [2, 4, 3, 5, 6, -2, 4, 6, 8, 9]
 target = 7
 ```
 
-**Output:**
+## Output
 
 - A list of pairs `(a, b)` where `a+b=target`.
 - Each pair must appear only once, regardless of their order.
@@ -27,7 +27,7 @@ target = 7
 result = [(2, 5), (4, 3), (-2, 9)]
 ```
 
-**Constraints:**
+## Constraints
 
 - The array `arr` may contain duplicate values.
 - Ensure no duplicate pairs are included in the output.

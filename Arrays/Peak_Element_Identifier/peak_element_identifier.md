@@ -1,14 +1,14 @@
 # Peak Element Identifier
 
-**Problem Statement:**
+## Problem Statement
 
 Given an integer array, find a peak element. A peak element is one that is greater than or equal to its neighbors.
 
-**Requirements:**
+## Requirements
 
 Write a function or program that identifies a peak element in the array. If multiple peak elements exist, returning any one of them is acceptable.
 
-**Input:**
+## Input
 
 An integer array `arr` of size `n`, where `n≥1`.
 
@@ -16,7 +16,7 @@ An integer array `arr` of size `n`, where `n≥1`.
 arr = [1, 3, 20, 4, 1, 0]
 ```
 
-**Output:**
+## Output
 
 An integer representing any peak element in the array.
 
@@ -24,7 +24,7 @@ An integer representing any peak element in the array.
 result  = 20
 ```
 
-**Constraints:**
+## Constraints
 
 - For an element to be a peak:
   - If it is not at the ends of the array, it must be greater than or equal to both its left and right neighbors.

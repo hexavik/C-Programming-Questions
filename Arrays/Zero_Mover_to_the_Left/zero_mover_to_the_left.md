@@ -1,14 +1,14 @@
 # Zero Mover to the Left
 
-**Problem Statement:**
+## Problem Statement
 
 Rearrange a given array such that all zero values are moved to the leftmost positions while maintaining the relative order of the non-zero elements.
 
-**Requirements:**
+## Requirements
 
 Write a program or function that modifies the input array to meet the specified conditions in-place without using additional storage for a new array.
 
-**Input:**
+## Input
 
 An array `arr` of integers of size `n`, containing both zero and non-zero values.
 
@@ -16,7 +16,7 @@ An array `arr` of integers of size `n`, containing both zero and non-zero values
 arr = [1, 2, 0, 4, 3, 0, 5, 0]
 ```
 
-**Output:**
+## Output
 
 The modified array with all zeros moved to the left while preserving the order of non-zero numbers.
 
@@ -24,7 +24,7 @@ The modified array with all zeros moved to the left while preserving the order o
 result = [0, 0, 0, 1, 2, 4, 3, 5]
 ```
 
-**Constraints:**
+## Constraints
 
 - The input array can contain any integer values (positive, negative, or zero)
 - The array should be modified in-place, with minimal extra space usage.
