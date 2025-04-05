@@ -33,6 +33,7 @@ Output: 6
 > - XOR logic can be derived from: `a XOR b = (a OR b) AND NOT (a AND b)`
 >
 > - Bitwise truth table:
+>
 > | In | In | XOR Out |
 > |-|-|-|
 > | 0 | 0 | 0 |
