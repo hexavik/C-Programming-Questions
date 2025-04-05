@@ -45,7 +45,7 @@ Programming challenges for beginners and mid-level C programmers.
 
 - [x] Calculate a Power b using Bit Manipulation
 - [ ] Check for Alternate Bits
-- [ ] Check if Binary Representation of a Number is Palindrome
+- [x] Check if Binary Representation of a Number is Palindrome
 - [ ] Check if Number is Multiple of 3
 - [ ] Clear Bits from MSB to i
 - [ ] Convert Decimal to Binary
