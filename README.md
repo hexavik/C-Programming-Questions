@@ -48,7 +48,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Check if Binary Representation of a Number is Palindrome
 - [x] Check if Number is Multiple of 3
 - [ ] Clear Bits from MSB to i
-- [ ] Convert Decimal to Binary
+- [x] Convert Decimal to Binary
 - [ ] Count Number of Flips to Convert A to B
 - [ ] Count Set Bits
 - [ ] Detecting Power of Two
