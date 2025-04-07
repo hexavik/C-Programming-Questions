@@ -25,9 +25,9 @@ Input: 0b11101111, i = 5
 Modified integer with cleared MSB to `i`
 
 ```bash
-Output: 0b00001111 (for 0b11111111, i = 3)  
-Output: 0b00001110 (for 0b10110110, i = 4)  
-Output: 0b00000111 (for 0b11101111, i = 5)  
+Output: 0b00000111 (for 0b11111111, i = 3)  
+Output: 0b00000110 (for 0b10110110, i = 4)  
+Output: 0b00001111 (for 0b11101111, i = 5)  
 
 ```
 
@@ -38,19 +38,19 @@ Output: 0b00000111 (for 0b11101111, i = 5)
 
 > [!NOTE]
 >
-**Bitwise Approach:**
-
-- Construct a Mask
-  - To clear bits from `MSB` to `i`, we need a mask where:
-    - Bits from `i` upwards are 0.
-    - Bits from `i-1` downwards remain unchanged.
-  - This can be achieved using: `mask = (1 << i) − 1`
-  - Example for `i = 3`: `(1 << 3) - 1 = 0b00001000 - 1 = 0b00000111`
-- Apply Mask using Bitwise AND
-  - Use `n & mask` to retain lower bits and clear upper bits.
-
-**Edge Cases:**
-
-- `i = 0` (Clears all bits) → Output: `0b00000000`
-- `i = 31` (Only the sign bit is cleared in a 32-bit integer)
-- Large numbers (`n = 0xFFFFFFFF`) → Should work efficiently
+> **Bitwise Approach:**
+>
+> - Construct a Mask
+>   - To clear bits from `MSB` to `i`, we need a mask where:
+>     - Bits from `i` upwards are 0.
+>     - Bits from `i-1` downwards remain unchanged.
+>   - This can be achieved using: `mask = (1 << i) − 1`
+>   - Example for `i = 3`: `(1 << 3) - 1 = 0b00001000 - 1 = 0b00000111`
+> - Apply Mask using Bitwise AND
+>   - Use `n & mask` to retain lower bits and clear upper bits.
+>
+> **Edge Cases:**
+>
+> - `i = 0` (Clears all bits) → Output: `0b00000000`
+> - `i = 31` (Only the sign bit is cleared in a 32-bit integer)
+> - Large numbers (`n = 0xFFFFFFFF`) → Should work efficiently
