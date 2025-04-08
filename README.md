@@ -52,7 +52,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Count Number of Flips to Convert A to B
 - [x] Count Set Bits
 - [x] Detecting Power of Two
-- [ ] Determine if Two Integers have Opposite Signs
+- [x] Determine if Two Integers have Opposite Signs
 - [ ] Extract n Bits
 - [ ] Find Parity of a Number
 - [ ] Find Two Unique Numbers in Array
