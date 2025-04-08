@@ -54,7 +54,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Detecting Power of Two
 - [x] Determine if Two Integers have Opposite Signs
 - [x] Extract n Bits
-- [ ] Find Parity of a Number
+- [x] Find Parity of a Number
 - [ ] Find Two Unique Numbers in Array
 - [ ] Find a Unique Number in an Array
 - [ ] Generate All Possible Combinations of n Bits
