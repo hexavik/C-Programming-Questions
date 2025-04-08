@@ -51,7 +51,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Convert Decimal to Binary
 - [x] Count Number of Flips to Convert A to B
 - [x] Count Set Bits
-- [ ] Detecting Power of Two
+- [x] Detecting Power of Two
 - [ ] Determine if Two Integers have Opposite Signs
 - [ ] Extract n Bits
 - [ ] Find Parity of a Number
