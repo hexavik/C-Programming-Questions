@@ -49,7 +49,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Check if Number is Multiple of 3
 - [x] Clear Bits from MSB to i
 - [x] Convert Decimal to Binary
-- [ ] Count Number of Flips to Convert A to B
+- [x] Count Number of Flips to Convert A to B
 - [ ] Count Set Bits
 - [ ] Detecting Power of Two
 - [ ] Determine if Two Integers have Opposite Signs
