@@ -55,7 +55,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Determine if Two Integers have Opposite Signs
 - [x] Extract n Bits
 - [x] Find Parity of a Number
-- [ ] Find Two Unique Numbers in Array
+- [x] Find Two Unique Numbers in Array
 - [ ] Find a Unique Number in an Array
 - [ ] Generate All Possible Combinations of n Bits
 - [ ] Implement Bitwise Right Shift
