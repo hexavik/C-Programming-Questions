@@ -64,7 +64,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Mask Certain Bits
 - [x] Reverse Bits in a Byte
 - [x] Rotate Bits
-- [ ] Set Bits without Using Arithmatic Operations
+- [x] Set Bits without Using Arithmetic Operations
 - [ ] Single Number in Array
 - [ ] Swap Odd and Even Bits
 - [ ] Toggle 3rd and 5th Bits
