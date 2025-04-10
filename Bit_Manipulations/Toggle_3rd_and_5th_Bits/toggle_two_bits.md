@@ -13,7 +13,7 @@ Given an 8-bit number, toggle (i.e., flip) the **3rd and 5th bits**, counting fr
 ## Output
 
 ```bash
-0b10000101
+0b10001101
 ```
 
 ## Constraints

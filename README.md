@@ -67,7 +67,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Set Bits without Using Arithmetic Operations
 - [x] Single Number in Array
 - [x] Swap Odd and Even Bits
-- [ ] Toggle 3rd and 5th Bits
+- [x] Toggle 3rd and 5th Bits
 
 ## Linked List
 
