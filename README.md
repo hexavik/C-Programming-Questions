@@ -65,7 +65,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Reverse Bits in a Byte
 - [x] Rotate Bits
 - [x] Set Bits without Using Arithmetic Operations
-- [ ] Single Number in Array
+- [x] Single Number in Array
 - [ ] Swap Odd and Even Bits
 - [ ] Toggle 3rd and 5th Bits
 
