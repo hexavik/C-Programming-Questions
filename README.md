@@ -60,7 +60,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Generate All Possible Combinations of n Bits
 - [x] Implement Bitwise Right Shift
 - [x] Implement XOR without using XOR operator
-- [ ] Isolate the Rightmost Set bit
+- [x] Isolate the Rightmost Set bit
 - [ ] Mask Certain Bits
 - [ ] Reverse Bits in a Byte
 - [ ] Rotate Bits
