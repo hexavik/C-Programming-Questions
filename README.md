@@ -63,7 +63,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Isolate the Rightmost Set bit
 - [x] Mask Certain Bits
 - [x] Reverse Bits in a Byte
-- [ ] Rotate Bits
+- [x] Rotate Bits
 - [ ] Set Bits without Using Arithmatic Operations
 - [ ] Single Number in Array
 - [ ] Swap Odd and Even Bits
