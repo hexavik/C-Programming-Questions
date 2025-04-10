@@ -57,7 +57,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Find Parity of a Number
 - [x] Find Two Unique Numbers in Array
 - [x] Find a Unique Number in an Array
-- [ ] Generate All Possible Combinations of n Bits
+- [x] Generate All Possible Combinations of n Bits
 - [ ] Implement Bitwise Right Shift
 - [ ] Implement XOR without using XOR operator
 - [ ] Isolate the Rightmost Set bit
