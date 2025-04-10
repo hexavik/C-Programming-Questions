@@ -59,7 +59,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Find a Unique Number in an Array
 - [x] Generate All Possible Combinations of n Bits
 - [x] Implement Bitwise Right Shift
-- [ ] Implement XOR without using XOR operator
+- [x] Implement XOR without using XOR operator
 - [ ] Isolate the Rightmost Set bit
 - [ ] Mask Certain Bits
 - [ ] Reverse Bits in a Byte
