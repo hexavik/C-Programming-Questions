@@ -62,7 +62,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Implement XOR without using XOR operator
 - [x] Isolate the Rightmost Set bit
 - [x] Mask Certain Bits
-- [ ] Reverse Bits in a Byte
+- [x] Reverse Bits in a Byte
 - [ ] Rotate Bits
 - [ ] Set Bits without Using Arithmatic Operations
 - [ ] Single Number in Array
