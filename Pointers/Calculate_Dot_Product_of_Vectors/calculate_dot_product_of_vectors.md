@@ -34,4 +34,4 @@ int n = 3;
 >
 > - Use expressions like `*(vec1 + i)` or increment pointers directly using `*p1++`
 > - Dot product = sum of element-wise products:
-> `vec1[0]*vec2[0] + vec1[1]*vec2[1] + ... + vec1[n-1]*vec2[n-1]`
+> `(vec1[0] * vec2[0]) + (vec1[1] * vec2[1]) + ... + (vec1[n-1] * vec2[n-1])`
