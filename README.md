@@ -156,7 +156,7 @@ Programming challenges for beginners and mid-level C programmers.
 ## Pointers
 
 - [x] Calculate Dot Product of Vectors
-- [ ] Check Pointers Point to Same Array
+- [x] Check Pointers Point to Same Array
 - [ ] Check String Palindrome
 - [ ] Check String Prefix
 - [ ] Concatenate Strings without Lib
