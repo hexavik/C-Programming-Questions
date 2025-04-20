@@ -2,5 +2,10 @@
 !/**/
 !*.*
 
+.DS_Store
+.cache
+
 *.code-workspace
-.vscode
+.vscode/
+.zed/
+*.zed/
