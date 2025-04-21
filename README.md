@@ -161,7 +161,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Check String Prefix
 - [x] Concatenate Strings without Lib
 - [x] Convert String to Lowercase
-- [ ] Count Array Elements without Loop
+- [x] Count Array Elements without Loop
 - [ ] Custom memcpy Function
 - [ ] Custom strtok Function
 - [ ] Detect Pointer out of Bounds
