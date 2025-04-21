@@ -162,7 +162,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Concatenate Strings without Lib
 - [x] Convert String to Lowercase
 - [x] Count Array Elements without Loop
-- [ ] Custom memcpy Function
+- [x] Custom memcpy Function
 - [ ] Custom strtok Function
 - [ ] Detect Pointer out of Bounds
 - [ ] Find Array Intersection
