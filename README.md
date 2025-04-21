@@ -160,7 +160,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Check String Palindrome
 - [x] Check String Prefix
 - [x] Concatenate Strings without Lib
-- [ ] Convert String to Lowercase
+- [x] Convert String to Lowercase
 - [ ] Count Array Elements without Loop
 - [ ] Custom memcpy Function
 - [ ] Custom strtok Function
