@@ -159,7 +159,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Check Pointers Point to Same Array
 - [x] Check String Palindrome
 - [x] Check String Prefix
-- [ ] Concatenate Strings without Lib
+- [x] Concatenate Strings without Lib
 - [ ] Convert String to Lowercase
 - [ ] Count Array Elements without Loop
 - [ ] Custom memcpy Function
