@@ -53,8 +53,6 @@ int * find_intersection_in_sorted(int * arr1, int * arr2, size_t size1, size_t s
     int * end1 = arr1 + size1;
     int * end2 = arr2 + size2;
 
-    int i = 0;
-    int j = 0;
     while (arr1 < end1 && arr2 < end2) {
         if (*arr1 < *arr2) {
             arr1++;

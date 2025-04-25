@@ -166,7 +166,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Custom strtok Function
 - [x] Detect Pointer out of Bounds
 - [x] Find Array Intersection
-- [ ] Find Common Elements in Sorted Arrays
+- [x] Find Common Elements in Sorted Arrays
 - [ ] Find Data Type Size without sizeof
 - [ ] Find First Non Repeated Charcater
 - [ ] Find Linked List Length
