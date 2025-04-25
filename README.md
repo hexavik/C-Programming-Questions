@@ -165,7 +165,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Custom memcpy Function
 - [x] Custom strtok Function
 - [x] Detect Pointer out of Bounds
-- [ ] Find Array Intersection
+- [x] Find Array Intersection
 - [ ] Find Common Elements in Sorted Arrays
 - [ ] Find Data Type Size without sizeof
 - [ ] Find First Non Repeated Charcater
