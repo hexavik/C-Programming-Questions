@@ -163,7 +163,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Convert String to Lowercase
 - [x] Count Array Elements without Loop
 - [x] Custom memcpy Function
-- [ ] Custom strtok Function
+- [x] Custom strtok Function
 - [x] Detect Pointer out of Bounds
 - [ ] Find Array Intersection
 - [ ] Find Common Elements in Sorted Arrays
