@@ -167,7 +167,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Detect Pointer out of Bounds
 - [x] Find Array Intersection
 - [x] Find Common Elements in Sorted Arrays
-- [ ] Find Data Type Size without sizeof
+- [x] Find Data Type Size without sizeof
 - [ ] Find First Non Repeated Charcater
 - [ ] Find Linked List Length
 - [ ] Find Overlapping Elements in Arrays
