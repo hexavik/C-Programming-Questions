@@ -172,7 +172,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Find Linked List Length
 - [x] Find Overlapping Elements in Arrays
 - [x] Flatten 2D Array to 1D
-- [ ] Memory Leak Detector
+- [x] Memory Leak Detector
 - [ ] Merge Two Sorted Arrays
 - [ ] Move 2D Point
 - [ ] Rotate Array by k Elements
