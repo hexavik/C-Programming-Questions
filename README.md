@@ -174,7 +174,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Flatten 2D Array to 1D
 - [x] Memory Leak Detector
 - [x] Merge Two Sorted Arrays
-- [ ] Move 2D Point
+- [x] Move 2D Point
 - [ ] Rotate Array by k Elements
 - [ ] Segregate Even and Odd using Pointers
 - [ ] Split String into Halves
