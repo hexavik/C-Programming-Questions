@@ -179,7 +179,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Segregate Even and Odd using Pointers
 - [x] Split String into Halves
 - [x] Swap Two Strings using Pointers
-- [ ] Trim String Whitespace
+- [x] Trim String Whitespace
 
 ## Searching
 
