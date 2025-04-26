@@ -173,7 +173,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Find Overlapping Elements in Arrays
 - [x] Flatten 2D Array to 1D
 - [x] Memory Leak Detector
-- [ ] Merge Two Sorted Arrays
+- [x] Merge Two Sorted Arrays
 - [ ] Move 2D Point
 - [ ] Rotate Array by k Elements
 - [ ] Segregate Even and Odd using Pointers
