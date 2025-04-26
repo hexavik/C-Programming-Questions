@@ -171,7 +171,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Find First Non Repeated Charcater
 - [x] Find Linked List Length
 - [x] Find Overlapping Elements in Arrays
-- [ ] Flatten 2D Array to 1D
+- [x] Flatten 2D Array to 1D
 - [ ] Memory Leak Detector
 - [ ] Merge Two Sorted Arrays
 - [ ] Move 2D Point
