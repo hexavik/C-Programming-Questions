@@ -169,7 +169,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Find Common Elements in Sorted Arrays
 - [x] Find Data Type Size without sizeof
 - [x] Find First Non Repeated Charcater
-- [ ] Find Linked List Length
+- [x] Find Linked List Length
 - [ ] Find Overlapping Elements in Arrays
 - [ ] Flatten 2D Array to 1D
 - [ ] Memory Leak Detector
