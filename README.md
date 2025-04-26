@@ -177,7 +177,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Move 2D Point
 - [x] Rotate Array by k Elements
 - [x] Segregate Even and Odd using Pointers
-- [ ] Split String into Halves
+- [x] Split String into Halves
 - [ ] Swap Two Strings using Pointers
 - [ ] Trim String Whitespace
 
