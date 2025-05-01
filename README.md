@@ -132,7 +132,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Fragmentation Detector
 - [x] Garbage Collector Simulator
 - [x] Heap Metadata Inspector
-- [ ] Memory Bound Priority Queue
+- [x] Memory Bound Priority Queue
 - [ ] Memory-Mapped Circular Buffer
 - [ ] Memory Access Logger
 - [ ] Memory Alignment Checker
