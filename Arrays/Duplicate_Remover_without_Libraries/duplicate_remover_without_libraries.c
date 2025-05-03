@@ -1,24 +1,23 @@
 /**
  * @file duplicate_remover_without_libraries.c
- * 
  * @author Vikrant A. P. (vikrant_ap@hotmail.com)
- * 
  * @date 2023-12-24
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 
+#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
  * @brief Removes duplicates from an array in-place.
- * 
- * @param arr 
- * @param len 
+ *
+ * @param arr
+ * @param len
  */
-void remove_duplicates(int array[], int array_length) {
+void remove_duplicates(int array[], size_t array_length) {
     // Index to track the position of the next unique element
     int unique_element_index = 0;
 
@@ -41,11 +40,14 @@ void remove_duplicates(int array[], int array_length) {
     }
 
     // Display the modified array with duplicates removed
-    printf("Result: ");
+    printf("Result: [");
     for (int i = 0; i < unique_element_index; ++i) {
-        printf("%d, ", array[i]);
+        printf("%d", array[i]);
+        if (i < unique_element_index - 1) {
+            printf(", ");
+        }
     }
-    printf("\n");
+    printf("]\n");
 }
 
 int main() {
@@ -53,7 +55,7 @@ int main() {
     int arr[] = {1, 1, 2, 2, 3, 4, 4};
 
     // Calculate the length of array
-    int len = sizeof(arr) / sizeof(int);
+    size_t len = sizeof(arr) / sizeof(int);
 
     remove_duplicates(arr, len);
 

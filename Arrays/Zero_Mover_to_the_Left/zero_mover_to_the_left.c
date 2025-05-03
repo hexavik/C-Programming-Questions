@@ -1,19 +1,18 @@
 /**
  * @file zero_mover_to_the_left.c
- *
  * @author Vikrant A. P. (vikrant_ap@hotmail.com)
- * 
  * @date 2025-01-26
- * 
+ *
  * @copyright Copyright (c) 2025
- * 
+ *
  */
 
+#include <stddef.h>
 #include <stdio.h>
 
 /**
  * @brief Swap the places of two intgers.
- * 
+ *
  * @param a pointer of the first integer
  * @param b pointer of the second integer
  */
@@ -28,7 +27,7 @@ int main() {
     int arr[] = {1, 2, 0, 4, 3, 0, 5, 0};
 
     // Calculate the size of the array
-    int arr_len = sizeof(arr) / sizeof(arr[0]);
+    size_t arr_len = sizeof(arr) / sizeof(arr[0]);
 
     // Keep all zeroes at the left
     for (int i = 0; i < arr_len; ++i) {
@@ -41,11 +40,14 @@ int main() {
         }
     }
 
-    printf("result: ");
+    printf("result: [");
     for (int i = 0; i < arr_len; ++i) {
-        printf("%d, ", arr[i]);
+        printf("%d", arr[i]);
+        if (i < arr_len - 1) {
+            printf(", ");
+        }
     }
-    printf("\n");
+    printf("]\n");
 
     return 0;
 }

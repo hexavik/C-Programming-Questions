@@ -1,30 +1,30 @@
 /**
  * @file array_product_excluding_self_calculator.c
- * 
+ *
  * @author Vikrant A. P. (vikrant_ap@hotmail.com)
- * 
+ *
  * @date 2023-12-17
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 
 #include <stdio.h>
 
 int main() {
     int arr[] = {1, 2, 3, 4};
-    
+
     // Calculate the size of array
-    int len = sizeof(arr) / sizeof(int);
+    size_t len = sizeof(arr) / sizeof(int);
 
     // The result array
     int result[len];
 
     //
     // We shall follow two pass approach here. In the first pass we shall
-    // calculate the product of all elements to the left of each element 
-    // (excluding itself). In the second pass, iterate from the right side 
-    // and multiply each element by the product calculated in the first 
+    // calculate the product of all elements to the left of each element
+    // (excluding itself). In the second pass, iterate from the right side
+    // and multiply each element by the product calculated in the first
     // pass.
     //
 

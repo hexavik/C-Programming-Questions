@@ -1,12 +1,10 @@
 /**
  * @file array_intersection_calculator.c
- * 
  * @author Vikrant A. P. (vikrant_ap@hotmail.com)
- * 
  * @date 2023-12-17
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 
 #include <stdio.h>
@@ -31,20 +29,20 @@ int main() {
     qsort(array2, len2, sizeof(int), compareInt);
 
     // Declare and allocate memory to the result variable
-    // Since we have two different size of arrays, so we 
+    // Since we have two different size of arrays, so we
     // allocate maximum memory equal to the lenght of the smaller array.
     int * result = (int * )malloc((len1 > len2) ? len2 : len1);
 
     int i = 0;
     int j = 0;
-    int resultLen = 0;
+    int result_len = 0;
 
     // Compare and match
     while (i < len1 && j < len2) {
         if (array1[i] == array2[j]) {
             // Match found, add only if not already present
-            if (resultLen == 0 || result[resultLen - 1] != array1[i]) {
-                result[resultLen++] = array1[i];
+            if (result_len == 0 || result[result_len - 1] != array1[i]) {
+                result[result_len++] = array1[i];
             }
             ++i;
             ++j;
@@ -57,13 +55,17 @@ int main() {
     };
 
     // Reallocate the memory
-    result = realloc(result, sizeof(int) * resultLen);
+    result = realloc(result, sizeof(int) * result_len);
 
     // Display result
-    printf("result: ");
-    for (int i = 0; i < resultLen; ++i) {
-        printf("%d, ", result[i]);
+    printf("result: [");
+    for (int i = 0; i < result_len; ++i) {
+        printf("%d", result[i]);
+        if (i < result_len - 1) {
+            printf(", ");
+        }
     }
+    printf("]\n");
 
     // Release the memory
     free(result);

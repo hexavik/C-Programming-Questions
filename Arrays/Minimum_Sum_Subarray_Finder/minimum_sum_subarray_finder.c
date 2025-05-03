@@ -1,14 +1,13 @@
 /**
  * @file minimum_sum_subarray_finder.c
- * 
  * @author Vikrant A. P. (vikrant_ap@hotmail.com)
- * 
  * @date 2024-05-16
- * 
+ *
  * @copyright Copyright (c) 2024
- * 
+ *
  */
 
+#include <stddef.h>
 #include <stdio.h>
 #include <limits.h>
 
@@ -17,7 +16,7 @@ int main(void) {
     int arr[] = {3, 1, -4, 2, 0};
 
     // Calculate the size of the array
-    int len = sizeof(arr) / sizeof(int);
+    size_t len = sizeof(arr) / sizeof(int);
 
     // Initialize minimum sum to maximum possible intger value
     int min_sum = INT_MAX;

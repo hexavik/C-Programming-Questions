@@ -1,27 +1,26 @@
 /**
  * @file duplicate_number_detector.c
- * 
  * @author Vikrant A. P. (vikrant_ap@hotmail.com)
- * 
  * @date 2023-12-24
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 
+#include <stddef.h>
 #include <stdio.h>
 #include <stdbool.h>
 
 /**
- * @brief Determine if the input array contains any duplicate elements 
+ * @brief Determine if the input array contains any duplicate elements
  * using two for loops. This function has O(n * n) time complexity.
- * 
+ *
  * @param arr Input int array.
  * @param len Length of array.
  * @return true In case duplicate elements found.
  * @return false In case of duplicate elements not found.
  */
-bool checkDuplicate_for(int arr[], int len) {
+bool check_duplicate_for(int arr[], size_t len) {
     // Validate the length of input array
     if (len < 2) {
         printf("ERROR: array has only one element.");
@@ -30,7 +29,7 @@ bool checkDuplicate_for(int arr[], int len) {
 
     //
     // Using two for loops will let us pick up one element from array
-    // and compare it with other elements. At the time we find any 
+    // and compare it with other elements. At the time we find any
     // duplicate value, true will be returned.
     //
     for (int i = 0; i < len; ++i) {
@@ -49,15 +48,15 @@ bool checkDuplicate_for(int arr[], int len) {
 }
 
 /**
- * @brief Determine if the input array contains any duplicate elements 
+ * @brief Determine if the input array contains any duplicate elements
  * using hash table. This function has max O(n) time complexity.
- * 
+ *
  * @param arr Input int array.
  * @param len Length of array.
  * @return true In case duplicate elements found.
  * @return false In case of duplicate elements not found.
  */
-bool checkDuplicate_hash(int arr[], int len) {
+bool check_duplicate_hash(int arr[], size_t len) {
     // Validate the length of input array
     if (len < 2) {
         printf("ERROR: array has only one element.");
@@ -84,12 +83,12 @@ int main() {
     int arr[] = {3, 1, 4, 2, 3};
 
     // Calculate the lenght of array
-    int len = sizeof(arr) / sizeof(int);
+    size_t len = sizeof(arr) / sizeof(int);
 
-    /*checkDuplicate(arr, len) 
+    /*checkDuplicate(arr, len)
         ? printf("Result: True\n") : printf("Result: False\n");*/
 
-    checkDuplicate_hash(arr, len) 
+    check_duplicate_hash(arr, len)
         ? printf("Result: True\n") : printf("Result: False\n");
 
     return 0;

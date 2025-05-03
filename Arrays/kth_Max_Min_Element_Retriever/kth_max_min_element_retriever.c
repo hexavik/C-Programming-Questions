@@ -1,24 +1,23 @@
 /**
  * @file kth_max_min_element_retriever.c
- * 
  * @author Vikrant A. P. (vikrant_ap@hotmail.com)
- * 
  * @date 2023-12-25
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 
+#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 
 /**
  * @brief Merge the elements of an array into a single element array.
- * 
+ *
  * @param array Input integer array
  * @param left Array to merge elements from array
- * @param median 
- * @param right 
+ * @param median
+ * @param right
  */
 void merge(int array[], int left, int median, int right) {
     int n1 = median - left + 1;
@@ -59,11 +58,11 @@ void merge(int array[], int left, int median, int right) {
 
 /**
  * @brief Sort the unsorted array using merge sort algorithm.
- * 
+ *
  * @param array Input integer array
  * @param length Array length
  */
-void merge_sort(int array[], int length) {
+void merge_sort(int array[], size_t length) {
     int curr_size;  // Current size of subarrays to be merged
     int left_start; // Starting index of the left subarray
 
@@ -75,10 +74,10 @@ void merge_sort(int array[], int length) {
     for (curr_size = 1; curr_size < length; curr_size = 2 * curr_size) {
         // Pick starting point of different subarrays of current size
         for (left_start = 0; left_start < length - 1; left_start += 2 * curr_size) {
-            // Find ending point of left subarray. mid + 1 is starting point of right 
+            // Find ending point of left subarray. mid + 1 is starting point of right
             int mid = left_start + curr_size - 1;
-            int right_end = (left_start + 2 * curr_size - 1 < length - 1) 
-                            ? left_start + (2 * curr_size) - 1 
+            int right_end = (left_start + 2 * curr_size - 1 < length - 1)
+                            ? left_start + (2 * curr_size) - 1
                             : length - 1;
 
             // Merge subarrays array[left_start ... mid] and array[mid + 1 ... right_end]
@@ -92,7 +91,7 @@ int main() {
     int arr[] = {7, 10, 4, 3, 20, 15};
 
     // Calculate array length
-    int len = sizeof(arr) / sizeof(int);
+    size_t len = sizeof(arr) / sizeof(int);
 
     // Input the kth index to find max and min
     int k;
@@ -105,18 +104,21 @@ int main() {
     }
 
     if (k > len) {
-        printf("Error: Invalid kth index, array length: %d\n", len);
+        printf("Error: Invalid kth index, array length: %zu\n", len);
         return 0;
     }
 
     // Sort an input array
     merge_sort(arr, len);
 
-    printf("Sorted: ");
+    printf("Sorted: [");
     for (int i = 0; i < len; ++i) {
-        printf("%d, ", arr[i]);
+        printf("%d", arr[i]);
+        if (i < len - 1) {
+            printf(", ");
+        }
     }
-    printf("\n");
+    printf("]\n");
 
     // Print kth min
     printf("kth Min: %d\n", arr[k - 1]);

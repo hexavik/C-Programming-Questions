@@ -1,24 +1,22 @@
 /**
  * @file positive_negative_rearranger.c
- *
  * @author Vikrant A. P. (vikrant_ap@hotmail.com)
- *
  * @date 2025-01-21
- * 
+ *
  * @copyright Copyright (c) 2025
- * 
+ *
  */
 
+#include <stddef.h>
 #include <stdio.h>
-#include <malloc.h>
 #include <stdlib.h>
 
-void rearrange_elements(int arr[], int arr_len) {
+void rearrange_elements(int arr[], size_t arr_len) {
     //
-    // The initial step is to spearate out positive and negative 
+    // The initial step is to spearate out positive and negative
     // elements in two different arrays and then pick one by one from
     // them in the original array.
-    // 
+    //
     int positive_count = 0;
     int negative_count = 0;
     int * positive_arr;
@@ -36,15 +34,21 @@ void rearrange_elements(int arr[], int arr_len) {
     }
 
     // Display both arrays
-    printf("pos arr: ");
+    printf("Pos arr: [");
     for (int i = 0; i < positive_count; ++i) {
-        printf("%d, ", positive_arr[i]);
+        printf("%d", positive_arr[i]);
+        if (i < positive_count - 1) {
+            printf(", ");
+        }
     }
-    printf("\nneg arr");
+    printf("]\nNeg arr: [");
     for (int i = 0; i < negative_count; ++i) {
-        printf("%d, ", negative_arr[i]);
+        printf("%d", negative_arr[i]);
+        if (i < negative_count - 1) {
+            printf(", ");
+        }
     }
-    printf("\n");
+    printf("]\n");
 
     int pos_counter = 0;
     int neg_counter = 0;
@@ -91,16 +95,19 @@ int main() {
     int arr[] = {-1, 2, -3, -4, -5, 6, -7, -8, -9};
 
     // Calculate the size of the array
-    int arr_len = sizeof(arr) / sizeof(arr[0]);
+    size_t arr_len = sizeof(arr) / sizeof(arr[0]);
 
     rearrange_elements(arr, arr_len);
 
     // Display output
-    printf("Result: ");
+    printf("Result: [");
     for (int i = 0; i < arr_len; ++i) {
-        printf("%d, ", arr[i]);
+        printf("%d", arr[i]);
+        if (i < arr_len - 1) {
+            printf(", ");
+        }
     }
-    printf("\n");
+    printf("]\n");
 
     return 0;
 }

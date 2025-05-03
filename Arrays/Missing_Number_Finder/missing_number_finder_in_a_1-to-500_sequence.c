@@ -2,10 +2,12 @@
  * @file missing_number_finder_in_a_1-to-500_sequence.c
  * @author Vikrant A. P. (vikrant_ap@hotmail.com
  * @date 2025-01-17
+ *
  * @copyright Copyright (c) 2025
- * 
+ *
  */
 
+#include <stddef.h>
 #include <stdio.h>
 
 int main() {
@@ -13,7 +15,7 @@ int main() {
     int arr[] = {1, 2, 4, 5};
 
     // Calculate the length of the array
-    int len = (&arr)[1] - arr;
+    size_t len = (&arr)[1] - arr;
 
     // Calculate the sum of all the numbers from 1 to n (length of an array)
     // Sum of all natural number n is n * (n + 1) / 2

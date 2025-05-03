@@ -1,21 +1,20 @@
 /**
  * @file longest_conecutive_subsequence_locator.c
- * 
  * @author Vikrant A. P. (vikrant_ap@hotmail.com)
- * 
  * @date 2024-05-14
- * 
+ *
  * @copyright Copyright (c) 2024
- * 
+ *
  */
 
+#include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>
 
 /**
  * @brief Sort the input array using quicksort algorithm.
- * 
+ *
  * @param arr input array to sort
  * @param beg beginning index of the array or it's piece
  * @param end ending index of the array or it's piece
@@ -44,21 +43,22 @@ void quicksort(int arr[], int beg, int end) {
 }
 
 /**
- * @brief Traverse through an array and find the longest consecutive 
+ * @brief Traverse through an array and find the longest consecutive
  * subsequence from tthe array.
  * 1. Set the current count and longest count at zero to initialize
- * 2. Set a variable to calculate the difference between the current index
- * and the value at that index to find the consecutive subsequencec
- * 3. If the current index is equal to the subtraction of the element at
- * the current index and the diff value, then increment the current index 
- * by one, else update the longest count in case it is less than the 
- * current count alogn with resetting the current count and diff variable.
+ * 2. Set a variable to calculate the difference between the current
+ * index and the value at that index to find the consecutive subsequence
+ * 3. If the current index is equal to the subtraction of the element
+ * at the current index and the diff value, then increment the current
+ * index by one, else update the longest count in case it is less than
+ * the current count alogn with resetting the current count and diff
+ * variable.
  * 4. Display the longest consecutive subsequence at the last
- * 
+ *
  * @param arr input array
  * @param len length of the input array
  */
-void find_longest_subsequence(int arr[], int len) {
+void find_longest_subsequence(int arr[], size_t len) {
     int current_count = 0;
     int diff = arr[0];
     int longest_count = 0;
@@ -90,16 +90,19 @@ int main(void) {
     int arr[] = {1, 9, 3, 10, 4, 20, 2};
 
     // Calculate array length
-    int len = sizeof(arr) / sizeof(int);
+    size_t len = sizeof(arr) / sizeof(int);
 
     // Let's implement the quicksort algorithm
     quicksort(arr, 0, len - 1);
 
-    printf("Array: ");
+    printf("Sorted Array: [");
     for (int i = 0; i < len; ++i) {
-        printf("%d, ", arr[i]);
+        printf("%d", arr[i]);
+        if (i < len - 1) {
+            printf(", ");
+        }
     }
-    printf("\n");
+    printf("]\n");
 
     find_longest_subsequence(arr, len);
 

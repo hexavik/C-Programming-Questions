@@ -1,17 +1,16 @@
 /**
  * @file occurrence_counter_in_a_sorted_array.c
- *
  * @author Vikrant A. P. (vikrant_ap@hotmail.com)
- *
  * @date 2025-01-19
- * 
+ *
  * @copyright Copyright (c) 2025
- * 
+ *
  */
 
+#include <stddef.h>
 #include <stdio.h>
 
-int findFirstOccurrence(int arr[], int arr_len, int target) {
+int find_first_occurrence(int arr[], size_t arr_len, int target) {
     int low = 0;
     int high = arr_len - 1;
     int mid;
@@ -36,7 +35,7 @@ int findFirstOccurrence(int arr[], int arr_len, int target) {
     return -1; // Target not found
 }
 
-int findLastOccurrence(int arr[], int arr_len, int target) {
+int find_last_occurrence(int arr[], size_t arr_len, int target) {
     int low = 0;
     int high = arr_len - 1;
     int mid;
@@ -61,13 +60,13 @@ int findLastOccurrence(int arr[], int arr_len, int target) {
     return -1;  // Target not found
 }
 
-int countTargetOccurrences(int arr[], int arr_len, int target) {
-    int first = findFirstOccurrence(arr, arr_len, target);
+int count_target_occurrences(int arr[], size_t arr_len, int target) {
+    int first = find_first_occurrence(arr, arr_len, target);
     if (first == -1) {
         return 0;   // Target not found
     }
 
-    int last = findLastOccurrence(arr, arr_len, target);
+    int last = find_last_occurrence(arr, arr_len, target);
     if (last == -1) {
         return 0;   // Target not found
     }
@@ -83,11 +82,11 @@ int main() {
     int target = 2;
 
     // Calculate the size of the array
-    int arr_len = sizeof(arr) / sizeof(arr[0]);
+    size_t arr_len = sizeof(arr) / sizeof(arr[0]);
 
     // Use binary search
-    int result = countTargetOccurrences(arr, arr_len, target);
-    !result ? 
+    int result = count_target_occurrences(arr, arr_len, target);
+    !result ?
     printf("Target not found\n") :
     printf("Target occurred for %d times\n", result);
 

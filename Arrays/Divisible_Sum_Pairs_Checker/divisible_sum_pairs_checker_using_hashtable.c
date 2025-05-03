@@ -1,29 +1,29 @@
 /**
  * @file divisible_sum_pairs_checker_using_hashmaps.c
- * 
  * @author Vikrant A. P. (vikrant_ap@hotmail.com)
- * 
  * @date 2023-12-24
- * 
+ *
  * @copyright Copyright (c) 2023
- * 
+ *
  */
 
+#include <stddef.h>
 #include <stdio.h>
 #include <stdbool.h>
 
 /**
- * @brief Determines whether the sums of the divisible pairs are available 
- * in an array. Each number may only be used in one pair; once a pair has 
- * already been formed, the numbers cannot be used in another pair.
- * 
+ * @brief Determines whether the sums of the divisible pairs are
+ * available in an array. Each number may only be used in one pair;
+ * once a pair has already been formed, the numbers cannot be used in
+ * another pair.
+ *
  * @param arr Input int array.
  * @param len Length of the input array.
  * @param divisor The input non-zero and positive divisor number.
  * @return true If all paired numbers' sums are divisible by the divisor.
  * @return false If any pair's sum is not divisible by the divisor.
  */
-bool areAllPairsDivisible(int arr[], int len, int divisor) {
+bool are_all_pairs_divisible(int arr[], size_t len, int divisor) {
     // Validate the k is non-negative or non-zero
     if (divisor <= 0) {
         printf("ERROR: The input divisor is zero or a negative number.");
@@ -57,7 +57,7 @@ int main() {
     int arr[] = {9, 7, 5, 6, -3, 6};
 
     // Calculate the length of array
-    int len = sizeof(arr) / sizeof(int);
+    size_t len = sizeof(arr) / sizeof(int);
 
     // Validate the length is even
     if (len & 1) {
@@ -71,20 +71,20 @@ int main() {
     scanf("%d", &k);
 
     //
-    // We will use an array as a hash table. For the hahs table, we will 
-    // create a fixed-size array that we will only use up to the divisor 
-    // value. When array items are divided by k (the divisor), the 
-    // frequencies of remainders will be stored. Pair checking is made 
-    // possible in this way. We shall handle negative remainders by 
-    // computing the residual of each element when divided by k. The 
-    // remainder is used as an index value and the freq value at that index
-    // will be incremented. Lastly, we shall determine whether or not a 
-    // rermainder's frequency (i and k - i) equals that of its 
-    // complementary remainder. If not, it returns false because there 
-    // isn't a matching pair.
+    // We will use an array as a hash table. For the hahs table, we
+    // will create a fixed-size array that we will only use up to the
+    // divisor value. When array items are divided by k (the divisor),
+    // the frequencies of remainders will be stored. Pair checking is
+    // made possible in this way. We shall handle negative remainders
+    // by computing the residual of each element when divided by k.
+    // The remainder is used as an index value and the freq value at
+    // that index will be incremented. Lastly, we shall determine
+    // whether or not a rermainder's frequency (i and k - i) equals
+    // that of its complementary remainder. If not, it returns false
+    // because there isn't a matching pair.
     //
 
-    areAllPairsDivisible(arr, len, k) 
+    are_all_pairs_divisible(arr, len, k)
         ? printf("result: True\n") : printf("result: False\n");
 
     return 0;
