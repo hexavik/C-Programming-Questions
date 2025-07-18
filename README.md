@@ -134,7 +134,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Heap Metadata Inspector
 - [x] Memory Bound Priority Queue
 - [x] Memory-Mapped Circular Buffer
-- [ ] Memory Access Logger
+- [x] Memory Access Logger
 - [ ] Memory Alignment Checker
 - [ ] Memory Defragmenter
 - [ ] Memory Footprint Analyzer
