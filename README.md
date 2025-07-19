@@ -135,7 +135,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Memory Bound Priority Queue
 - [x] Memory-Mapped Circular Buffer
 - [x] Memory Access Logger
-- [ ] Memory Alignment Checker
+- [x] Memory Alignment Checker
 - [ ] Memory Defragmenter
 - [ ] Memory Footprint Analyzer
 - [ ] Memory Initialization Library
