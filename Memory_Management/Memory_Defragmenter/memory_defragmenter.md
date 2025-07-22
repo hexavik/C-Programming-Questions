@@ -44,3 +44,7 @@ Status of memory after each operation, especially after defragmentation.
 > - This simulates a real-world heap manager behavior.
 > - The algorithm should scan the memory pool, compact allocated blocks to the front, and merge free space toward the end.
 > - Optional: Visualize memory before and after defragmentation using ASCII blocks or address mapping.
+
+> [!WARNING]
+>
+> Understand that the solution is based on a simple defragmenter implementation. I am not following any standardized logic followed by `free()` (where it deallocates memory using addresses). I am deallocating memory using bytes only, which will also split between the allocated blocks, since we are not adding any data. This is logic that must not be followed in the real-time programs; this will be just a simple experiment to understand the defgamenter most simply.

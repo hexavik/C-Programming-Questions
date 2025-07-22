@@ -136,7 +136,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Memory-Mapped Circular Buffer
 - [x] Memory Access Logger
 - [x] Memory Alignment Checker
-- [ ] Memory Defragmenter
+- [x] Memory Defragmenter
 - [ ] Memory Footprint Analyzer
 - [ ] Memory Initialization Library
 - [ ] Memory Leak Detector
