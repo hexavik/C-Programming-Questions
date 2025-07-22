@@ -137,7 +137,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Memory Access Logger
 - [x] Memory Alignment Checker
 - [x] Memory Defragmenter
-- [ ] Memory Footprint Analyzer
+- [x] Memory Footprint Analyzer
 - [ ] Memory Initialization Library
 - [ ] Memory Leak Detector
 - [ ] Memory Offset Calculator
