@@ -139,7 +139,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Memory Defragmenter
 - [x] Memory Footprint Analyzer
 - [x] Memory Initialization Library
-- [ ] Memory Leak Detector
+- [x] Memory Leak Detector
 - [ ] Memory Offset Calculator
 - [ ] Memory Overlay Management
 - [ ] Memory Pool
