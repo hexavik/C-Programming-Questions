@@ -141,7 +141,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Memory Initialization Library
 - [x] Memory Leak Detector
 - [x] Memory Offset Calculator
-- [ ] Memory Overlay Management
+- [x] Memory Overlay Management
 - [ ] Memory Pool
 - [ ] Memory Saefty Checker
 - [ ] Memory Statistics Reporter
