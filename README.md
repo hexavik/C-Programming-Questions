@@ -142,7 +142,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Memory Leak Detector
 - [x] Memory Offset Calculator
 - [x] Memory Overlay Management
-- [ ] Memory Pool
+- [x] Memory Pool
 - [ ] Memory Saefty Checker
 - [ ] Memory Statistics Reporter
 - [ ] Object Serialization
