@@ -87,7 +87,7 @@ int main() {
     int arr[] = {9, 7, 5, 6, -3, 6};
 
     // Calculate the length of array
-    size_t len = sizeof(arr) / sizeof(int);
+    size_t len = (&arr)[1] - arr;
 
     // Validate the length is even
     if (len & 1) {

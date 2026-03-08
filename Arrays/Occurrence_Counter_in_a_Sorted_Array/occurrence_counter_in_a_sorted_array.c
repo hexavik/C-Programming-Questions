@@ -82,7 +82,7 @@ int main() {
     int target = 2;
 
     // Calculate the size of the array
-    size_t arr_len = sizeof(arr) / sizeof(arr[0]);
+    size_t arr_len = (&arr)[1] - arr;
 
     // Use binary search
     int result = count_target_occurrences(arr, arr_len, target);

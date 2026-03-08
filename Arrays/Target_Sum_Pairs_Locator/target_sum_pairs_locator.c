@@ -20,7 +20,7 @@ int main() {
     int target = 7;
 
     // Calculate the size of the array
-    size_t arr_len = sizeof(arr) / sizeof(arr[0]);
+    size_t arr_len = (&arr)[1] - arr;
 
     //
     // In order to store numbers between -500 and 500, we employ a

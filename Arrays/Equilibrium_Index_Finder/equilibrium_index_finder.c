@@ -62,7 +62,7 @@ int main() {
     int arr[] = {-7, 1, 5, 2, -4, 3, 0};
 
     // Calculate array length
-    size_t len = sizeof(arr) / sizeof(int);
+    size_t len = (&arr)[1] - arr;
 
     // Find and print the equilibrium index
     printf("Result: %d\n", find_equilibrium_index(arr, len));

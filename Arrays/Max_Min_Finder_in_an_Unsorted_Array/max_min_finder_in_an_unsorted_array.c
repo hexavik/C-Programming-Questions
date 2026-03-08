@@ -15,7 +15,7 @@ int main(void) {
     int arr[] = {34, 15, 88, 2};
 
     // Calculate the size of the array
-    size_t len = sizeof(arr) / sizeof(int);
+    size_t len = (&arr)[1] - arr;
 
     int max = 0;
     int min = 1000;

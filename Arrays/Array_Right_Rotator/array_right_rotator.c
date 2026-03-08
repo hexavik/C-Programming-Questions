@@ -53,7 +53,7 @@ int main() {
     int arr[] = {1, 2, 3, 4, 5};
 
     // Calculate the length of array and display it
-    size_t len = sizeof(arr) / sizeof(int);
+    size_t len = (&arr)[1] - arr;
     printf("Length of array: %zu\n", len);
 
     // Stores number of steps to rotate to right

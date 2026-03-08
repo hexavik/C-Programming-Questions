@@ -15,7 +15,7 @@ int main() {
     int arr[] = {16, 17, 4, 3, 5, 2};
 
     // Calculate the length of array
-    size_t len = sizeof(arr) / sizeof(int);
+    size_t len = (&arr)[1] - arr;
 
     // Declare and allocate memory to a result
     int * leaders = (int * )malloc(sizeof(int) * len);

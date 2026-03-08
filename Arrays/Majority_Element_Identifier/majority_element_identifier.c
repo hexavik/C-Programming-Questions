@@ -49,7 +49,7 @@ int main(void) {
     int arr[] = {3, 3, 4, 2, 4, 4, 2, 4, 4};
 
     // The length of the array
-    size_t len = sizeof(arr) / sizeof(int);
+    size_t len = (&arr)[1] - arr;
 
     if (len <= 2) {
         printf("Array length is not enough for this problem, terminating the program.\n");

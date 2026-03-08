@@ -20,8 +20,8 @@ int main() {
     int array2[] = {2, 3, 5, 7};
 
     // Get the length of the arrays
-    int len1 = sizeof(array1) / sizeof(int);
-    int len2 = sizeof(array2) / sizeof(int);
+    int len1 = (&array1)[1] - array1;
+    int len2 = (&array2)[1] - array2;
     //printf("len1: %d & len2: %d\n", len1, len2);
 
     // Sort both arrays so that it is easy to avoid duplication in result

@@ -52,7 +52,7 @@ int main() {
     //int arr[] = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 
     // Calculate the size of the array
-    size_t arr_len = sizeof(arr) / sizeof(arr[0]);
+    size_t arr_len = (&arr)[1] - arr;
 
     bool result = zero_sum_subarray_detector(arr, arr_len);
     result ? printf("true\n") : printf("false\n");

@@ -83,7 +83,7 @@ int main() {
     int arr[] = {3, 1, 4, 2, 3};
 
     // Calculate the lenght of array
-    size_t len = sizeof(arr) / sizeof(int);
+    size_t len = (&arr)[1] - arr;
 
     /*checkDuplicate(arr, len)
         ? printf("Result: True\n") : printf("Result: False\n");*/

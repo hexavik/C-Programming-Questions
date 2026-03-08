@@ -16,7 +16,7 @@ int main(void) {
     int arr[] = {3, 1, -4, 2, 0};
 
     // Calculate the size of the array
-    size_t len = sizeof(arr) / sizeof(int);
+    size_t len = (&arr)[1] - arr;
 
     // Initialize minimum sum to maximum possible intger value
     int min_sum = INT_MAX;

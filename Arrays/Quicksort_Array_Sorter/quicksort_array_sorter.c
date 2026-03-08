@@ -68,11 +68,13 @@ int split(int arr[], size_t low, size_t high) {
 void quick_sort(int arr[], size_t low, size_t high) {
     if (low < high) {
         // split index is the split return index of pivot
-        int split_index = split(arr,low, high);
+        int split_index = split(arr, low, high);
         printf("split index: %d\n", split_index);
 
-        quick_sort(arr, low, split_index - 1);
-        quick_sort(arr, split_index + 1, high);
+        if (split_index > 0) {
+            quick_sort(arr, low, (size_t)split_index - 1);
+        }
+        quick_sort(arr, (size_t)split_index + 1, high);
     }
 }
 
@@ -81,7 +83,7 @@ int main() {
     int arr[] = {64, 34, 25, 12, 22, 11, 90};
 
     // Calculate the size of the array
-    size_t arr_len = sizeof(arr) / sizeof(arr[0]);
+    size_t arr_len = (&arr)[1] - arr;
 
     quick_sort(arr, 0, arr_len - 1);
 

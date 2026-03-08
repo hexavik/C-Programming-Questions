@@ -16,7 +16,7 @@ int main() {
     int arr[] = {4, 3, 2, 7, 8, 2, 3, 1};
 
     // Calculate the size of the array
-    size_t arr_len = sizeof(arr) / sizeof(arr[0]);
+    size_t arr_len = (&arr)[1] - arr;
 
     if (!arr_len) {
         printf("Input array is invalid (size zero)\n");

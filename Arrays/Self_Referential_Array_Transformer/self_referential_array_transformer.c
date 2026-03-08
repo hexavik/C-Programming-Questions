@@ -27,7 +27,7 @@ int main() {
     int arr[] = {2, 0, 1, 3};
 
     // Calculate the size of the array
-    size_t arr_len = sizeof(arr) / sizeof(arr[0]);
+    size_t arr_len = (&arr)[1] - arr;
 
     for (int i = 0; i < arr_len; ++i) {
         if (arr[i] != i) {

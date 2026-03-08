@@ -90,7 +90,7 @@ int main(void) {
     int arr[] = {1, 9, 3, 10, 4, 20, 2};
 
     // Calculate array length
-    size_t len = sizeof(arr) / sizeof(int);
+    size_t len = (&arr)[1] - arr;
 
     // Let's implement the quicksort algorithm
     quicksort(arr, 0, len - 1);

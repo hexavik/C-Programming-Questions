@@ -27,7 +27,7 @@ int main() {
     int arr[] = {1, 2, 0, 4, 3, 0, 5, 0};
 
     // Calculate the size of the array
-    size_t arr_len = sizeof(arr) / sizeof(arr[0]);
+    size_t arr_len = (&arr)[1] - arr;
 
     // Keep all zeroes at the left
     for (int i = 0; i < arr_len; ++i) {

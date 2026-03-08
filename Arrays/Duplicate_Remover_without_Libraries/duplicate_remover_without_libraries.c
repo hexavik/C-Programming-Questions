@@ -55,7 +55,7 @@ int main() {
     int arr[] = {1, 1, 2, 2, 3, 4, 4};
 
     // Calculate the length of array
-    size_t len = sizeof(arr) / sizeof(int);
+    size_t len = (&arr)[1] - arr;
 
     remove_duplicates(arr, len);
 

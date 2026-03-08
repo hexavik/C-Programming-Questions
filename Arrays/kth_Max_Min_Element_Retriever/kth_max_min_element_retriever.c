@@ -91,7 +91,7 @@ int main() {
     int arr[] = {7, 10, 4, 3, 20, 15};
 
     // Calculate array length
-    size_t len = sizeof(arr) / sizeof(int);
+    size_t len = (&arr)[1] - arr;
 
     // Input the kth index to find max and min
     int k;

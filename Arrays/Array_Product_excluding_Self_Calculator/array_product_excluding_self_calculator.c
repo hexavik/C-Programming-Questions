@@ -15,7 +15,7 @@ int main() {
     int arr[] = {1, 2, 3, 4};
 
     // Calculate the size of array
-    size_t len = sizeof(arr) / sizeof(int);
+    size_t len = (&arr)[1] - arr;
 
     // The result array
     int result[len];
@@ -48,6 +48,7 @@ int main() {
     for (int i = 0; i < len; ++i) {
         printf("%d, ", result[i]);
     }
+    printf("\n");
 
     return 0;
 }
