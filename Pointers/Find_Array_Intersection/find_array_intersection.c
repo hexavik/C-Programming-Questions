@@ -87,8 +87,8 @@ int main() {
     int arr2[] = {3, 4, 5, 6};
 
     // Calculate the size of input arrays
-    size_t arr_len1 = sizeof(arr1) / sizeof(arr1[0]);
-    size_t arr_len2 = sizeof(arr2) / sizeof(arr2[0]);
+    size_t arr_len1 = (&arr1)[1] - arr1;
+    size_t arr_len2 = (&arr2)[1] - arr2;
 
     size_t intersection_size = 0;
 

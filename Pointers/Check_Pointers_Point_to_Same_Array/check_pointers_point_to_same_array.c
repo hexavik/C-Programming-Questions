@@ -2,9 +2,9 @@
  * @file check_pointers_point_to_same_array.c
  * @author Vikrant (vikrant_ap@hotmail.com)
  * @date 2025-04-20
- * 
+ *
  * @copyright Copyright (c) 2025
- * 
+ *
  */
 
 #include <stddef.h>
@@ -33,9 +33,9 @@ int main() {
     int * ptr2 = &arr[3];
 
     // Calculate the size of the array
-    size_t arr_len = sizeof(arr) / sizeof(arr[0]);
+    size_t arr_len = (&arr)[1] - arr;
 
-    check_pointers(arr, arr_len, ptr1, ptr2) ? 
+    check_pointers(arr, arr_len, ptr1, ptr2) ?
         printf("True\n") :
         printf("False\n");
 

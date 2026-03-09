@@ -51,7 +51,7 @@ int main() {
     int k = 2;
 
     // Calculate the size of the array
-    size_t size = sizeof(arr) / sizeof(arr[0]);
+    size_t size = (&arr)[1] - arr;
 
     rotate_array(arr, size, k);
     display_arr(arr, size);

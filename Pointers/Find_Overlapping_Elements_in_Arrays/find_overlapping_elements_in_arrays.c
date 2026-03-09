@@ -50,8 +50,8 @@ int main() {
     int arr2[] = {5, 6, 7, 8};
 
     // Calculate the size of input arrays
-    size_t size1 = sizeof(arr1) / sizeof(arr1[0]);
-    size_t size2 = sizeof(arr2) / sizeof(arr2[0]);
+    size_t size1 = (&arr1)[1] - arr1;
+    size_t size2 = (&arr2)[1] - arr2;
 
     size_t overlapping_count = 0;
 

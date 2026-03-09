@@ -49,7 +49,7 @@ int main() {
     int arr[] = {12, 34, 9, 8, 45, 90};
 
     // Calculate the size of the array
-    int size = sizeof(arr) / sizeof(arr[0]);
+    int size = (&arr)[1] - arr;
 
     segragate_even_odd(arr, size);
     display_arr(arr, size);

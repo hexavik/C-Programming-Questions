@@ -13,7 +13,7 @@ int main() {
     // Input
     char src[] = "hello";
     char dest[6];
-    int length = sizeof(src) / sizeof(src[0]);
+    int length = (&src)[1] - src;
 
     char * src_ptr = src;
     char * dest_ptr = dest;

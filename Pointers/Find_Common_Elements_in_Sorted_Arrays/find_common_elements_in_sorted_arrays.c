@@ -60,9 +60,9 @@ int main() {
     int zarr[] = {3, 4, 15, 20, 30, 70, 80, 120};
 
     // Get the size of input arrays
-    size_t xsize = sizeof(xarr) / sizeof(xarr[0]);
-    size_t ysize = sizeof(yarr) / sizeof(yarr[0]);
-    size_t zsize = sizeof(zarr) / sizeof(zarr[0]);
+    size_t xsize = (&xarr)[1] - xarr;
+    size_t ysize = (&yarr)[1] - yarr;
+    size_t zsize = (&zarr)[1] - zarr;
 
     size_t common_count = 0;
 

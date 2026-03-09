@@ -25,8 +25,8 @@ int main() {
     int vec2[] = {4, 5, 6};
 
     // Calculate the size of arrays
-    size_t vec1_len = sizeof(vec1) / sizeof(vec1[0]);
-    size_t vec2_len = sizeof(vec2) / sizeof(vec2[0]);
+    size_t vec1_len = (&vec1)[1] - vec1;
+    size_t vec2_len = (&vec2)[1] - vec2;
 
     if (vec2_len != vec1_len) {
         fprintf(stderr, "Both vectors are not of equal length.");

@@ -53,8 +53,8 @@ int main() {
     int arr2[] = {2, 4, 6};
 
     // Calculate the size of arrays
-    size_t size1 = sizeof(arr1) / sizeof(arr1[0]);
-    size_t size2 = sizeof(arr2) / sizeof(arr2[0]);
+    size_t size1 = (&arr1)[1] - arr1;
+    size_t size2 = (&arr2)[1] - arr2;
     size_t merge_len = size1 + size2;
 
     int * result = merge_arrays(arr1, size1, arr2, size2);
