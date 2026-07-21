@@ -3,319 +3,406 @@
 Programming challenges for beginners and mid-level C programmers.
 
 - [Arrays](#arrays)
-- [Bit Manipulations](#bit-manipulations)
-- [Linked List](#linked-list)
-- [Linux Internals](#linux-internals)
-- [Memory Management](#memory-management)
-- [Pointers](#pointers)
-- [Searching](#searching)
-- [Sorting](#sorting)
-- [Stacks and Queues](#stacks-and-queues)
 - [Strings](#strings)
 - [Structures and Unions](#structures-and-unions)
+- [Bit Manipulations](#bit-manipulations)
+- [Pointers](#pointers)
+- [Memory Management](#memory-management)
+- [Linked Lists](#linked-lists)
+- [Stacks and Queues](#stacks-and-queues)
+- [Searching](#searching)
+- [Sorting](#sorting)
+- [Linux Internals](#linux-internals)
 
 ## Arrays
 
-- [x] Array Intersection Calculator
-- [x] Array Leaders Finder
-- [x] Array Product excluding Self Calculator
-- [x] Array Right Rotator
-- [x] Divisible Sum Pairs Checker
-- [x] Duplicate Number Detector
-- [x] Duplicate Remover without Libraries
-- [x] Equilibrium Index Finder
-- [x] kth Max-Min Element Retriever
-- [x] Longest Consecutive Subsequence Locator
-- [x] Majority Element Identifier
-- [x] Max-Min Finder in an Unsorted Array
-- [x] Minimum Sum Subarray Finder
-- [x] Missing Number Finder in a 1 to 500 Sequence
-- [x] Multiple Duplicates Identifier
-- [x] Occurrence Counter in a Sorted Array
-- [x] Peak Element Identifier
-- [x] Positive Negative Rearranger
-- [x] Quicksort Array Sorter
-- [x] Self Referential Array Transformer
-- [x] Sorted Arrays Merger
-- [x] Target Sum Pairs Locator
-- [x] Zero Mover to the Left
-- [x] Zero Sum Subarray Detector
+**Easy**
 
-## Bit Manipulations
+- [x] Find the Max-Min in an Unsorted Array
+- [x] Find the Missing Number in a 1 to 500 Sequence
+- [x] Count Occurrences in a Sorted Array
+- [x] Detect Duplicate Numbers
+- [x] Rearrange Positive and Negative Numbers
+- [x] Move Zeros to the Left
+- [x] Rotate an Array Right
+- [x] Check for Divisible Sum Pairs
+- [x] Locate Target Sum Pairs
 
-- [x] Calculate a Power b using Bit Manipulation
-- [x] Check for Alternate Bits
-- [x] Check if Binary Representation of a Number is Palindrome
-- [x] Check if Number is Multiple of 3
-- [x] Clear Bits from MSB to i
-- [x] Convert Decimal to Binary
-- [x] Count Number of Flips to Convert A to B
-- [x] Count Set Bits
-- [x] Detecting Power of Two
-- [x] Determine if Two Integers have Opposite Signs
-- [x] Extract n Bits
-- [x] Find Parity of a Number
-- [x] Find Two Unique Numbers in Array
-- [x] Find a Unique Number in an Array
-- [x] Generate All Possible Combinations of n Bits
-- [x] Implement Bitwise Right Shift
-- [x] Implement XOR without using XOR operator
-- [x] Isolate the Rightmost Set bit
-- [x] Mask Certain Bits
-- [x] Reverse Bits in a Byte
-- [x] Rotate Bits
-- [x] Set Bits without Using Arithmetic Operations
-- [x] Single Number in Array
-- [x] Swap Odd and Even Bits
-- [x] Toggle 3rd and 5th Bits
+**Medium**
 
-## Linked List
+- [x] Remove Duplicate Without Libraries
+- [x] Identify Multiple Duplicates
+- [x] Find Array Leaders
+- [x] Find the Equilibrium Index
+- [x] Identify a Peak Element
+- [x] Identify the Majority Element
+- [x] Merge Sorted Arrays
+- [x] Calculate Array Intersection
+- [x] Retrieve k-th Max-Min Element
+- [x] Find the Minimum Sum Subarray
+- [x] Detect a Zero-Sum Subarray
+- [x] Calculate the Product of an Array Except Self
 
-- [ ] Add Numbers Represented by Lists
-- [ ] Clone Linked List with Random Pointer
-- [ ] Common Ancestor in Binary Tree Doubly Linked List
-- [ ] Compare Strings as Linked Lists
-- [ ] Convert Binary Number to Integer
-- [ ] Delete Alternate Nodes
-- [ ] Detect and Remove Loop
-- [ ] Detect Cycle in Linked List
-- [ ] Find Middle Element
-- [ ] Find nth Node from End
-- [ ] Flatten Multi-level Linked List
-- [ ] Intersection Point Two Lists
-- [ ] Length of Linked List
-- [ ] Linked List is Palindrome
-- [ ] Merge Sort on Linked List
-- [ ] Merge Two sorted lists
-- [ ] Move Last Element to Front
-- [ ] Pairwise Swap Elements
-- [ ] Partition Linked List around Value
-- [ ] Remove Duplicate Unsorted
-- [ ] Remove Nodes of Specific Value
-- [ ] Reverse Linked List
-- [ ] Reverse Linked List No recursion
-- [ ] Segregate Even and Odd Nodes
-- [ ] Sum of Linked Lists using Stack
+**Hard**
 
-## Linux Internals
-
-- [x] Command Line Argument Parser
-- [x] CPU Information Fetcher
-- [x] CPU Scheduling Algorithm
-- [x] Custom Signal Handling
-- [x] Custom Init Process
-- [ ] Custom malloc free
-- [x] Custom ps command
-- [x] File Copy Program
-- [x] Filesystem Traversal opendir readdir
-- [x] Implement Priority Inversion Handling
-- [x] Implement Simple Shell
-- [x] Implement chmod Command
-- [ ] Implement ping Command
-- [ ] Implement tail Command
-- [ ] Implement watch Command
-- [ ] Implement whois Command
-- [ ] Mutex based File Access
-- [ ] Priority Inversion Problem
-- [ ] Process Forking Waiting
-- [ ] Semaphore based Producer Consumer
-- [ ] Terminal Multiplexer
-- [ ] Thread Creation Synchronization
-- [ ] User Space File Reader
-- [ ] User Space to Kernel Space Communication
-- [ ] Zero Copy Data Transfer
-
-## Memory Management
-
-- [x] Custom strdup Function
-- [x] Dynamic Array
-- [x] Fragmentation Detector
-- [x] Garbage Collector Simulator
-- [x] Heap Metadata Inspector
-- [x] Memory Bound Priority Queue
-- [x] Memory-Mapped Circular Buffer
-- [x] Memory Access Logger
-- [x] Memory Alignment Checker
-- [x] Memory Defragmenter
-- [x] Memory Footprint Analyzer
-- [x] Memory Initialization Library
-- [x] Memory Leak Detector
-- [x] Memory Offset Calculator
-- [x] Memory Overlay Management
-- [x] Memory Pool
-- [ ] Memory Saefty Checker
-- [ ] Memory Statistics Reporter
-- [ ] Object Serialization
-- [ ] Segmented Memory Allocator
-- [ ] Slab Allocator
-- [ ] Stack-based Memory Allocator
-- [ ] Stack Overflow Detector
-- [ ] Virtual Memory Simulator
-- [ ] Write-Once Memory Simulator
-
-## Pointers
-
-- [x] Calculate Dot Product of Vectors
-- [x] Check Pointers Point to Same Array
-- [x] Check String Palindrome
-- [x] Check String Prefix
-- [x] Concatenate Strings without Lib
-- [x] Convert String to Lowercase
-- [x] Count Array Elements without Loop
-- [x] Custom memcpy Function
-- [x] Custom strtok Function
-- [x] Detect Pointer out of Bounds
-- [x] Find Array Intersection
-- [x] Find Common Elements in Sorted Arrays
-- [x] Find Data Type Size without sizeof
-- [x] Find First Non Repeated Charcater
-- [x] Find Linked List Length
-- [x] Find Overlapping Elements in Arrays
-- [x] Flatten 2D Array to 1D
-- [x] Memory Leak Detector
-- [x] Merge Two Sorted Arrays
-- [x] Move 2D Point
-- [x] Rotate Array by k Elements
-- [x] Segregate Even and Odd using Pointers
-- [x] Split String into Halves
-- [x] Swap Two Strings using Pointers
-- [x] Trim String Whitespace
-
-## Searching
-
-- [ ] Binary Search Recursive
-- [ ] Count Array Rotations
-- [ ] Count Number Occurrences
-- [ ] Exponential Search
-- [ ] Fibonacci Search
-- [ ] find Kth Max-Min
-- [ ] Find First and Last Occurrence
-- [ ] Find Fixed Point
-- [ ] Find Majority Element
-- [ ] Find Missing Number 1 to n
-- [ ] Find Peak Element
-- [ ] Find Repeating Missing
-- [ ] Find Smallest Missing
-- [ ] Interpolation Search
-- [ ] Jump Search
-- [ ] Search Bitonic Array
-- [ ] Search nearly Sorted Array
-- [ ] Search Sorted Array
-- [ ] Search Sorted Matrix
-- [ ] Search Sorted Rotated Array
-- [ ] Search Unknown Length Array
-- [ ] Search Unsorted Array
-- [ ] Sentinal Search
-- [ ] Ternary Search
-- [ ] Two Numbers sum N
-
-## Sorting
-
-- [ ] Bead Sort
-- [ ] Bitonic Sort
-- [ ] Bogo Sort
-- [ ] Bucket Sort
-- [ ] Cocktail Sort
-- [ ] Comb Sort
-- [ ] Counting Sort for Negative Numbers
-- [ ] Cycle Sort
-- [ ] Dynamic Gap Shell Sort
-- [ ] Gnome Sort
-- [ ] Heap Sort with Binary Max Heap
-- [ ] In Place Merge Sort
-- [ ] Iterative Quick Sort
-- [ ] Linked List Insertion Sort
-- [ ] Odd Even Sort
-- [ ] Optimized Bubble Sort
-- [ ] Pancake Sort
-- [ ] Patience Sort
-- [ ] Permutation Sort
-- [ ] Pigeonhole Sort
-- [ ] Radix Sort for Floating Points
-- [ ] Recursive Mereg Sort
-- [ ] Sleep Sort
-- [ ] Stooge Sort
-- [ ] Tim Sort
-
-## Stacks and Queues
-
-- [ ] Balanced Parentheses Stack
-- [ ] Byte-Packing Stack
-- [ ] Circular Queue
-- [ ] Command Parser
-- [ ] Expression Validator
-- [ ] Function Call Logger
-- [ ] Min-Element Stack
-- [ ] Multi-Stack Array
-- [ ] Nested Statement counter
-- [ ] Palindrome Checker
-- [ ] Post-order Traversal Stack
-- [ ] Priority Queue Heap
-- [ ] Queue based Cache
-- [ ] Queue based Logger
-- [ ] Queue based Sequence Generator
-- [ ] Querue based Text filter
-- [ ] Queue Two Priorities
-- [ ] Queue from Stacks
-- [ ] Radix Sort Queue
-- [ ] Recursive to Iterative Converter
-- [ ] Stack based Calculator
-- [ ] Stack based Text Editor
-- [ ] Stack Sorting
-- [ ] String Message Queue
-- [ ] Undo Redo Stack
+- [x] Locate the Longest Consecutive Subsequence
+- [x] Transform a Self-Referential Array
+- [x] Implement Quicksort on an Array
 
 ## Strings
 
-- [x] Alphabetically Encoding a String
-- [x] Checking Anagrams between Two Strings
-- [ ] Counting balanced Zero-One Substrings
-- [ ] Counting Character Occurrences in a String
-- [ ] Counting Substring Occurrences in a String
-- [ ] Coiutning Vowels and Consonants in a String
-- [ ] Discovering the Longest Palindromic Substring
-- [ ] Evaluating Repeated Substring Patterns
-- [ ] Evaluating String Interleaving
-- [ ] Finding Lexicographically Minimal String Rotation
-- [ ] Finding the First Unique Character in a String
-- [ ] Generating All String Permutations
-- [ ] Identifying Duplicate Characters in a String
-- [ ] Identifying Longest Substring without Repeats
-- [ ] Listing Multiple Occurrences of Characters in a String
-- [ ] Minimizing Palindromic Partitions
-- [ ] Palindrome Validation for Strings
-- [ ] Pangram Verification
-- [ ] Recursive String Reversal
-- [ ] Reversing Words in a Sentence without Libraries
-- [ ] String to Integer Conversion without Built-in Functions
-- [ ] Validating Balanced PArentheses in a String
-- [ ] Verifying Numeric-only Characters in a String
-- [ ] Verifying String Rotations
+**Easy**
+
+- [ ] Validate if a String is a Palindrome
+- [ ] Reverse a String Recursively
+- [ ] Count Character Occurrences in a String
+- [ ] Count Vowels and Consonants in a String
+- [ ] Verify a Pangram
+- [ ] Verify That a String Contains Only Numeric Characters
+- [x] Check if Two Strings Are Anagrams
+- [ ] Find the First Unique Character in a String
+- [ ] Identify Duplicate Characters in a String
+- [ ] List Multiple Occurrences of Characters in a String
+
+**Medium**
+
+- [x] Encode a String Alphabetically
+- [ ] Convert a String to an Integer Without Built-In Functions
+- [ ] Reverse Words in a Sentence Without Libraries
+- [ ] Count Substring Occurrences in a String
+- [ ] Count Balanced Zero-One Substrings
+- [ ] Validate Balanced Parentheses in a String
+- [ ] Verify String Rotations
+- [ ] Find the Lexicographically Minimal String Rotation
+- [ ] Identify the Longest Substring Without Repeats
+- [ ] Evaluate Repeated Substring Patterns
+
+**Hard**
+
+- [ ] Find the Longest Palindromic Substring
+- [ ] Minimize Palindromic Partitions
+- [ ] Evaluate String Interleaving
+- [ ] Generate All String Permutations
 
 ## Structures and Unions
 
-- [ ] 32bit Value Access
-- [ ] 3D Point Distance
-- [ ] 4-Byte Value Conversion
-- [ ] IP Address Conversion
-- [ ] IP Address Representation
-- [ ] Book Price Discount
-- [ ] Color RGB CMYK
-- [ ] Command Parsing
-- [ ] Complex Number Operations
-- [ ] Data Packet Serialization
-- [ ] Data Difference
-- [ ] Device Config bitfields
-- [ ] Employee Address
-- [ ] Endianness Conversion
-- [ ] Error Code Representation
-- [ ] File Attributes
-- [ ] Library Database
-- [ ] Menu Item Function Pointer
-- [ ] Network Packet Type
-- [ ] Structure Memory Optimization
-- [ ] Student Average Marks
-- [ ] Student Linked List
-- [ ] Time Operations
-- [ ] Variable Datatype Array
-- [ ] Vehicle Extended Structure
+**Easy**
+
+- [ ] Calculate Student Average Marks
+- [ ] Manage Employee Addresses
+- [ ] Calculate a Book Price Discount
+- [ ] Calculate the Distance between 3D Points
+- [ ] Perform Time Operations Using Structures
+- [ ] Perform Complex Number Operations
+- [ ] Convert Color Systems (RGB to CMYK) Using Unions
+- [ ] Represent Error Codes Using Unions
+- [ ] Read File Attributes Into a Structure
+
+**Medium**
+
+- [ ] Implement a Library Database System
+- [ ] Implement a Vehicle Extended Structure Using Unions
+- [ ] Implement a Student Linked List
+- [ ] Parse Commands
+- [ ] Create a Variable Data Type Array Using Unions
+- [ ] Calculate Data Differences
+- [ ] Implement Menu Items with Function Pointers in a Structure
+- [ ] Identify Network Packet Types Using Unions
+
+**Hard**
+
+- [ ] Access a 32-Bit Value Using a Union
+- [ ] Convert a 4-Byte Value Using a Union
+- [ ] Convert an IP Address Using Structures and Unions
+- [ ] Represent an IP Address Using a Union
+- [ ] Perform Endianness Conversion Using a Union
+- [ ] Configure Device Settings Using Bitfields
+- [ ] Optimize Structure Memory Padding
+- [ ] Serialize a Data Packet
+
+## Bit Manipulations
+
+**Easy**
+
+- [x] Convert Decimal to Binary
+- [x] Count Set Bits
+- [x] Detect Power of Two
+- [x] Determine if Two Integers Have Opposite Signs
+- [x] Find the Parity of a Number
+- [x] Isolate the Rightmost Set Bit
+- [x] Toggle the 3rd and 5th Bits
+- [x] Mask Certain Bits
+- [x] Extract `n` Bits
+- [x] Clear Bits from MSB to `i`
+
+**Medium**
+
+- [x] Find the Single Number in an Array
+- [x] Find a Unique Number in an Array
+- [x] Reverse Bits in a Byte
+- [x] Rotate Bits
+- [x] Swap Odd and Even Bits
+- [x] Check for Alternate Bits
+- [x] Check if a Number is a Multiple of 3
+- [x] Count the Number of Flips to Convert `A` to `B`
+- [x] Implement Bitwise Right Shift
+- [x] Calculate `a` to the Power of `b` Using Bit Manipulation
+- [x] Implement XOR without using the XOR operator
+- [x] Set Bits Without Using Arithmetic Operations
+
+**Hard**
+
+- [x] Find Two Unique Numbers in an Array
+- [x] Check if the Binary Representation of a Number is a Palindrome
+- [x] Generate All Possible Combinations of `n` Bits
+
+## Pointers
+
+**Easy**
+
+- [x] Convert a String to Lowercase
+- [x] Trim String Whitespace
+- [x] Check if a String is a Palindrome
+- [x] Check String Prefix
+- [x] Swap Two Strings Using Pointers
+- [x] Move a 2D Point
+- [x] Calculate the Dot Product of Vectors
+- [x] Find Data Type Size Without Using `sizeof`
+
+**Medium**
+
+- [x] Concatenate Strings Without a Library
+- [x] Split a String into Halves
+- [x] Find the First Non-Repeated Character
+- [x] Count Array Elements Without a Loop
+- [x] Rotate an Array by 'k' Elements
+- [x] Segregate Even and Odd Numbers Using Pointers
+- [x] Merge Two Sorted Arrays
+- [x] Find Array Intersection
+- [x] Find Common Elements in Sorted Arrays
+- [x] Find Overlapping Elements in Arrays
+- [x] Flatten a 2D Array to 1D
+- [x] Find the Length of a Linked List
+- [x] Check if Pointers Point to the Same Array
+
+**Hard**
+
+- [x] Implement a Custom `memcpy` Function
+- [x] Implement a Custom `strtok` Function
+- [x] Detect a Pointer Out of Bounds
+- [x] Detect Memory Leaks
+
+## Memory Management
+
+**Easy**
+
+- [x] Implement a Custom `strdup` Function
+- [x] Implement a Dynamic Array
+- [x] Calculate a Memory Offset
+- [x] Check Memory Alignment
+- [x] Initialize a Memory Library
+- [x] Log Memory Accesses
+
+**Medium**
+
+- [x] Detect Memory Leaks
+- [x] Analyze the Memory Footprint
+- [ ] Report Memory Statistics
+- [ ] Detect a Stack Overflow
+- [x] Implement a Memory Pool
+- [ ] Implement a Stack-Based Memory Allocator
+- [ ] Simulate Write-Once Memory
+- [ ] Serialize an Object
+- [x] Inspect Heap Metadata
+- [x] Detect Memory Fragmentation
+
+**Hard**
+
+- [x] Defragment Memory
+- [x] Implement a Memory-Mapped Circular Buffer
+- [x] Implement a Memory-Bound Priority Queue
+- [x] Manage Memory Overlay
+- [ ] Implement a Segmented Memory Allocator
+- [ ] Implement a Slab Allocator
+- [ ] Simulate Virtual Memory
+- [x] Simulate a Garbage Collector
+- [ ] Check Memory Safety
+
+## Linked Lists
+
+**Easy**
+
+- [ ] Find the Length of a Linked List
+- [ ] Find the Middle Element
+- [ ] Reverse a Linked List
+- [ ] Reverse a Linked List (No Recursion)
+- [ ] Find the n-th Node from the End
+- [ ] Move the Last Element to the Front
+- [ ] Delete Alternate Nodes
+- [ ] Pairwise Swap Elements
+
+**Medium**
+
+- [ ] Detect a Cycle in a Linked List
+- [ ] Merge Two Sorted Lists
+- [ ] Remove Duplicates (Unsorted List)
+- [ ] Remove Nodes of a Specific Value
+- [ ] Convert a Binary Number to an Integer
+- [ ] Segregate Even and Odd Nodes
+- [ ] Compare Strings as Linked Lists
+- [ ] Find the Intersection Point of Two Lists
+- [ ] Detect and Remove a Loop
+- [ ] Check if a Linked List is a Palindrome
+- [ ] Partition a Linked List Around a Value
+
+**Hard**
+
+- [ ] Add Numbers Represented by Lists
+- [ ] Implement Merge Sort on a Linked List
+- [ ] Clone a Linked List with a Random Pointer
+- [ ] Flatten a Multi-level Linked List
+- [ ] Find the Common Ancestor in a Binary Tree Using a Doubly Linked List
+
+## Stacks and Queues
+
+**Easy**
+
+- [ ] Check for Balanced Parentheses Using a Stack
+- [ ] Check if a String is a Palindrome Using a Stack
+- [ ] Implement a Circular Queue
+- [ ] Implement a Stack with a Get-Min Operation
+- [ ] Count Nested Statements Using a Stack
+- [ ] Implement a Queue-Based Logger
+
+**Medium**
+
+- [ ] Implement a Stack-Based Calculator
+- [ ] Validate Expressions Using a Stack
+- [ ] Implement a Multi-Stack Array
+- [ ] Parse Commands Using a Stack or Queue
+- [ ] Implement a Queue-Based Cache
+- [ ] Generate Sequences Using a Queue
+- [ ] Filter Text Using a Queue
+- [ ] Implement a Priority Queue Using a Heap
+- [ ] Implement a Queue Supporting Two Priorities
+- [ ] Implement a String Message Queue
+- [ ] Implement Undo and Redo Using Stack
+- [ ] Log Function Calls Using a Stack
+
+**Hard**
+
+- [ ] Implement a Queue Using Stacks
+- [ ] Sort a Stack
+- [ ] Perform Post-Order Traversal Using a Stack
+- [ ] Convert a Recursive Function to Iterative Using a Stack
+- [ ] Implement a Stack-Based Text Editor
+- [ ] Implement a Byte-Packing Stack
+- [ ] Implement Radix Sort Using a Queue
+
+## Searching
+
+**Easy**
+
+- [ ] Search Sorted Array
+- [ ] Search Unsorted Array
+- [ ] Perform a Recusrive Binary Search
+- [ ] Perform a Sentinel Search
+- [ ] Perform a Jump Search
+- [ ] Count Occurrences of a Number
+- [ ] Find the First and Last Occurrences
+- [ ] Find Two Numbers That Sum to 'N'
+
+**Medium**
+
+- [ ] Search an Unknown-Length Array
+- [ ] Find a Fixed Point
+- [ ] Find a Peak Element
+- [ ] Count Array Rotations
+- [ ] Perform an Interpolation Search
+- [ ] Perform an Exponential Search
+- [ ] Perform a Ternary Search
+- [ ] Find the Missing Number from '1' to 'n'
+- [ ] Find the Majority Element
+- [ ] Search a Nearly Sorted Array
+
+**Hard**
+
+- [ ] Search a Sorted Rotated Array
+- [ ] Perform a Fibonacci Search
+- [ ] Find the Repeating and Missing Numbers
+- [ ] Find the Smallest Missing Numbers
+- [ ] Find the 'k'-th Max-Min Element
+- [ ] Search a Bitonic Array
+- [ ] Search a Sorted Matrix
+
+## Sorting
+
+**Easy**
+
+- [ ] Implement Optimized Bubble Sort
+- [ ] Implement Gnome Sort
+- [ ] Implement Cocktail Sort
+- [ ] Implement Odd Even Sort
+- [ ] Implement Comb Sort
+- [ ] Implement Sleep Sort
+- [ ] Implement Bogo Sort
+- [ ] Implement Stooge Sort
+
+**Medium**
+
+- [ ] Implement Cycle Sort
+- [ ] Implement Pancake Sort
+- [ ] Implement Pigeonhole Sort
+- [ ] Implement Counting Sort for Negative Numbers
+- [ ] Implement Bucket Sort
+- [ ] Implement Dynamic Gap Shell Sort
+- [ ] Sort a Linked List Using Insertion Sort
+- [ ] Implement Bead Sort
+- [ ] Implement Iterative Quick Sort
+- [ ] Implement Recursive Merge Sort
+- [ ] Implement In-Place Merge Sort
+- [ ] Implement Heap Sort with a Binary Max Heap
+
+**Hard**
+
+- [ ] Implement Radix Sort for Floating-Point Numbers
+- [ ] Implement Bitonic Sort
+- [ ] Implement Patience Sort
+- [ ] Implement Permutation Sort
+- [ ] Implement Tim Sort
+
+## Linux Internals
+
+**Easy**
+
+- [x] Parse Command-Line Argument
+- [x] Copy a File
+- [x] Fetch CPU Information
+- [x] Traverse a Filesystem Using `opendir` and `readdir`
+- [x] Implement the `chmod` Command
+- [ ] Read a File in User-Space
+- [ ] Implement the `tail` Command
+
+**Medium**
+
+- [x] Implement a Custom `ps` Command
+- [ ] Implement Custom `malloc` and `free`
+- [ ] Fork and Wait for Processs
+- [ ] Create and Synchronize Threads
+- [ ] Access a File Using Mutexes
+- [x] Implement a Simple Shell
+- [x] Handle Signals with a Custom Handler
+- [ ] Implement the `ping` Command
+- [ ] Implement the `whois` Command
+- [ ] Implement the `watch` Command
+- [x] Implement a CPU Scheduling Algorithm
+
+**Hard**
+
+- [ ] Solve the Producer-Consumer Using Semaphores
+- [ ] Demonstrate the Priority Inversion Problem
+- [x] Implement Priority Inversion Handling
+- [x] Create a Custom Init Process
+- [ ] Communicate Between User-Space and Kernel-Space
+- [ ] Perform a Zero-Copy Data Transfer
+- [ ] Implement a Terminal Multiplexer
