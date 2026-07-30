@@ -2,17 +2,18 @@
 
 Programming challenges for beginners and mid-level C programmers.
 
-- [Arrays](#arrays)
-- [Strings](#strings)
-- [Structures and Unions](#structures-and-unions)
-- [Bit Manipulations](#bit-manipulations)
-- [Pointers](#pointers)
-- [Memory Management](#memory-management)
-- [Linked Lists](#linked-lists)
-- [Stacks and Queues](#stacks-and-queues)
-- [Searching](#searching)
-- [Sorting](#sorting)
-- [Linux Internals](#linux-internals)
+- [C Programming Questions](#c-programming-questions)
+  - [Arrays](#arrays)
+  - [Strings](#strings)
+  - [Structures and Unions](#structures-and-unions)
+  - [Bit Manipulations](#bit-manipulations)
+  - [Pointers](#pointers)
+  - [Memory Management](#memory-management)
+  - [Linked Lists](#linked-lists)
+  - [Stacks and Queues](#stacks-and-queues)
+  - [Searching](#searching)
+  - [Sorting](#sorting)
+  - [Linux Internals](#linux-internals)
 
 ## Arrays
 
@@ -38,7 +39,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Identify the Majority Element
 - [x] Merge Sorted Arrays
 - [x] Calculate Array Intersection
-- [x] Retrieve k-th Max-Min Element
+- [x] Retrieve 'k'-th Max-Min Element
 - [x] Find the Minimum Sum Subarray
 - [x] Detect a Zero-Sum Subarray
 - [x] Calculate the Product of an Array Except Self
@@ -132,8 +133,8 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Isolate the Rightmost Set Bit
 - [x] Toggle the 3rd and 5th Bits
 - [x] Mask Certain Bits
-- [x] Extract `n` Bits
-- [x] Clear Bits from MSB to `i`
+- [x] Extract 'n' Bits
+- [x] Clear Bits from MSB to 'i'
 
 **Medium**
 
@@ -144,9 +145,9 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Swap Odd and Even Bits
 - [x] Check for Alternate Bits
 - [x] Check if a Number is a Multiple of 3
-- [x] Count the Number of Flips to Convert `A` to `B`
+- [x] Count the Number of Flips to Convert 'A' to 'B'
 - [x] Implement Bitwise Right Shift
-- [x] Calculate `a` to the Power of `b` Using Bit Manipulation
+- [x] Calculate 'a' to the Power of 'b' Using Bit Manipulation
 - [x] Implement XOR without using the XOR operator
 - [x] Set Bits Without Using Arithmetic Operations
 
@@ -154,7 +155,7 @@ Programming challenges for beginners and mid-level C programmers.
 
 - [x] Find Two Unique Numbers in an Array
 - [x] Check if the Binary Representation of a Number is a Palindrome
-- [x] Generate All Possible Combinations of `n` Bits
+- [x] Generate All Possible Combinations of 'n' Bits
 
 ## Pointers
 
@@ -232,36 +233,34 @@ Programming challenges for beginners and mid-level C programmers.
 
 **Easy**
 
-- [ ] Find the Length of a Linked List
-- [ ] Find the Middle Element
-- [ ] Reverse a Linked List
-- [ ] Reverse a Linked List (No Recursion)
-- [ ] Find the n-th Node from the End
-- [ ] Move the Last Element to the Front
-- [ ] Delete Alternate Nodes
-- [ ] Pairwise Swap Elements
+- [x] Find the Length of a Linked List
+- [x] Find the Middle Element
+- [x] Reverse a Linked List
+- [x] Find the 'n'-th Node from the End
+- [x] Move the Last Element to the Front
+- [x] Delete Alternate Nodes
+- [x] Pairwise Swap Elements
 
 **Medium**
 
-- [ ] Detect a Cycle in a Linked List
-- [ ] Merge Two Sorted Lists
-- [ ] Remove Duplicates (Unsorted List)
-- [ ] Remove Nodes of a Specific Value
-- [ ] Convert a Binary Number to an Integer
-- [ ] Segregate Even and Odd Nodes
-- [ ] Compare Strings as Linked Lists
-- [ ] Find the Intersection Point of Two Lists
-- [ ] Detect and Remove a Loop
-- [ ] Check if a Linked List is a Palindrome
-- [ ] Partition a Linked List Around a Value
+- [x] Merge Two Sorted Lists
+- [x] Remove Duplicates (Unsorted List)
+- [x] Remove Nodes of a Specific Value
+- [x] Convert a Binary Number to an Integer
+- [x] Segregate Even and Odd Nodes
+- [x] Compare Strings as Linked Lists
+- [x] Find the Intersection Point of Two Lists
+- [x] Detect and Remove a Loop
+- [x] Check if a Linked List is a Palindrome
+- [x] Partition a Linked List Around a Value
 
 **Hard**
 
-- [ ] Add Numbers Represented by Lists
-- [ ] Implement Merge Sort on a Linked List
-- [ ] Clone a Linked List with a Random Pointer
-- [ ] Flatten a Multi-level Linked List
-- [ ] Find the Common Ancestor in a Binary Tree Using a Doubly Linked List
+- [x] Add Numbers Represented by Lists
+- [x] Implement Merge Sort on a Linked List
+- [x] Clone a Linked List with a Random Pointer
+- [x] Flatten a Multi-level Linked List
+- [x] Find the Common Ancestor in a Binary Tree Using a Doubly Linked List
 
 ## Stacks and Queues
 
