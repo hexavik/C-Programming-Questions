@@ -1,5 +1,7 @@
 # C Programming Questions
 
+![Static Badge](https://img.shields.io/badge/Status-In_Progress-green?style=flat)
+
 Programming challenges for beginners and mid-level C programmers.
 
 - [C Programming Questions](#c-programming-questions)
