@@ -89,11 +89,11 @@ Programming challenges for beginners and mid-level C programmers.
 
 **Easy**
 
-- [ ] Calculate Student Average Marks
-- [ ] Manage Employee Addresses
-- [ ] Calculate a Book Price Discount
-- [ ] Calculate the Distance between 3D Points
-- [ ] Perform Time Operations Using Structures
+- [x] Calculate Student Average Marks
+- [x] Manage Employee Addresses
+- [x] Calculate a Book Price Discount
+- [x] Calculate the Distance between 3D Points
+- [x] Perform Time Operations Using Structures
 - [ ] Perform Complex Number Operations
 - [ ] Convert Color Systems (RGB to CMYK) Using Unions
 - [ ] Represent Error Codes Using Unions
