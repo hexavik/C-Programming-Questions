@@ -96,10 +96,10 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Calculate a Book Price Discount
 - [x] Calculate the Distance between 3D Points
 - [x] Perform Time Operations Using Structures
-- [ ] Perform Complex Number Operations
-- [ ] Convert Color Systems (RGB to CMYK) Using Unions
-- [ ] Represent Error Codes Using Unions
-- [ ] Read File Attributes Into a Structure
+- [x] Perform Complex Number Operations
+- [x] Convert Color Systems (RGB to CMYK) Using Unions
+- [x] Represent Error Codes Using Unions
+- [x] Read File Attributes Into a Structure
 
 **Medium**
 
