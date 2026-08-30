@@ -103,14 +103,14 @@ Programming challenges for beginners and mid-level C programmers.
 
 **Medium**
 
-- [ ] Implement a Library Database System
-- [ ] Implement a Vehicle Extended Structure Using Unions
-- [ ] Implement a Student Linked List
-- [ ] Parse Commands
-- [ ] Create a Variable Data Type Array Using Unions
-- [ ] Calculate Data Differences
-- [ ] Implement Menu Items with Function Pointers in a Structure
-- [ ] Identify Network Packet Types Using Unions
+- [x] Implement a Library Database System
+- [x] Implement a Vehicle Extended Structure Using Unions
+- [x] Implement a Student Linked List
+- [x] Parse Commands
+- [x] Create a Variable Data Type Array Using Unions
+- [x] Calculate Date Differences
+- [x] Implement Menu Items with Function Pointers in a Structure
+- [x] Identify Network Packet Types Using Unions
 
 **Hard**
 
