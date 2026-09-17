@@ -23,10 +23,14 @@ double square(float num) {
     return num * num;
 }
 
-//
-// The distance formula for two 3D points
-// D = Sqrt((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2)
-//
+/**
+ * @brief Calculate the distance from the point 1 to the point 2
+ * Formula: D = Sqrt((x2 - x1)^2 + (y2 - y1)^2 + (z2 - z1)^2)
+ * 
+ * @param p1 Input first 3D point
+ * @param p2 Input seconf 3D point
+ * @return double Distance between the two points
+ */
 double distance_calculate(Point* p1, Point* p2) {
     if (!p1 || !p2) { return 0.0f; }
 

@@ -114,14 +114,13 @@ Programming challenges for beginners and mid-level C programmers.
 
 **Hard**
 
-- [ ] Access a 32-Bit Value Using a Union
-- [ ] Convert a 4-Byte Value Using a Union
-- [ ] Convert an IP Address Using Structures and Unions
-- [ ] Represent an IP Address Using a Union
-- [ ] Perform Endianness Conversion Using a Union
-- [ ] Configure Device Settings Using Bitfields
-- [ ] Optimize Structure Memory Padding
-- [ ] Serialize a Data Packet
+- [x] Access a 32-Bit Value Using a Union
+- [x] Convert a 4-Byte Value Using a Union
+- [x] Convert an IP Address Using Structures and Unions
+- [x] Perform Endianness Conversion Using a Union
+- [x] Configure Device Settings Using Bitfields
+- [x] Optimize Structure Memory Padding
+- [x] Serialize a Data Packet
 
 ## Bit Manipulations
 
