@@ -56,25 +56,24 @@ Programming challenges for beginners and mid-level C programmers.
 
 **Easy**
 
-- [ ] Validate if a String is a Palindrome
-- [ ] Reverse a String Recursively
-- [ ] Count Character Occurrences in a String
-- [ ] Count Vowels and Consonants in a String
-- [ ] Verify a Pangram
-- [ ] Verify That a String Contains Only Numeric Characters
+- [x] Validate if a String is a Palindrome
+- [x] Reverse a String Recursively
+- [x] Count Character Occurrences in a String
+- [x] Count Vowels and Consonants in a String
+- [x] Verify a Pangram
+- [x] Verify That a String Contains Only Numeric Characters
 - [x] Check if Two Strings Are Anagrams
-- [ ] Find the First Unique Character in a String
-- [ ] Identify Duplicate Characters in a String
-- [ ] List Multiple Occurrences of Characters in a String
+- [x] Find the First Unique Character in a String
+- [x] Identify Duplicate Characters in a String
 
 **Medium**
 
 - [x] Encode a String Alphabetically
-- [ ] Convert a String to an Integer Without Built-In Functions
-- [ ] Reverse Words in a Sentence Without Libraries
-- [ ] Count Substring Occurrences in a String
-- [ ] Count Balanced Zero-One Substrings
-- [ ] Validate Balanced Parentheses in a String
+- [x] Convert a String to an Integer Without Built-In Functions
+- [x] Reverse Words in a Sentence Without Libraries
+- [x] Count Substring Occurrences in a String
+- [x] Count Balanced Zero-One Substrings
+- [x] Validate Balanced Parentheses in a String
 - [ ] Verify String Rotations
 - [ ] Find the Lexicographically Minimal String Rotation
 - [ ] Identify the Longest Substring Without Repeats

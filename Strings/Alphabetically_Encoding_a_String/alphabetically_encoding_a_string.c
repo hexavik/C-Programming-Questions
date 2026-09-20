@@ -11,7 +11,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+//
 // Maximum count of A-Z alphabets
+//
 #define ALPHABETS_COUNT 26
 
 void encode_string(char * input_string, char * output_string, int char_place) {
@@ -33,9 +35,7 @@ void encode_string(char * input_string, char * output_string, int char_place) {
 }
 
 int main() {
-    // Input String
     char * input_string = "Hello World!";
-    // Encoding offset
     int offset = 3;
 
     char * output_string = (char *)malloc((strlen(input_string) + 1) * sizeof(char));
@@ -46,7 +46,6 @@ int main() {
 
     encode_string(input_string, output_string, offset);
 
-    // Display output string
     printf("Result: %s\n", output_string);
 
     free(output_string);
