@@ -74,10 +74,10 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] Count Substring Occurrences in a String
 - [x] Count Balanced Zero-One Substrings
 - [x] Validate Balanced Parentheses in a String
-- [ ] Verify String Rotations
-- [ ] Find the Lexicographically Minimal String Rotation
-- [ ] Identify the Longest Substring Without Repeats
-- [ ] Evaluate Repeated Substring Patterns
+- [x] Verify String Rotations
+- [x] Find the Lexicographically Minimal String Rotation
+- [x] Identify the Longest Substring Without Repeats
+- [x] Evaluate Repeated Substring Patterns
 
 **Hard**
 
