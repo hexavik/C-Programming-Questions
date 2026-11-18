@@ -81,10 +81,10 @@ Programming challenges for beginners and mid-level C programmers.
 
 **Hard**
 
-- [ ] Find the Longest Palindromic Substring
-- [ ] Minimize Palindromic Partitions
-- [ ] Evaluate String Interleaving
-- [ ] Generate All String Permutations
+- [x] Find the Longest Palindromic Substring
+- [x] Minimize Palindromic Partitions
+- [x] Evaluate String Interleaving
+- [x] Generate All String Permutations
 
 ## Structures and Unions
 
