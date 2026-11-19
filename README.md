@@ -78,6 +78,7 @@ Programming challenges for beginners and mid-level C programmers.
 - [x] 17 Find the Lexicographically Minimal String Rotation
 - [x] 18 Identify the Longest Substring Without Repeats
 - [x] 19 Evaluate Repeated Substring Patterns
+- [x] 20 Find the Most Frequent Charcater
 
 **Hard**
 
